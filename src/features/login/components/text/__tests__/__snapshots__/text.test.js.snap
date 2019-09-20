@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Text component Should rendering without crash 1`] = `
+<div
+  className="Text__StyledText-fa81pq-0 bIShHK"
+>
+  <h1>
+    Must be show!
+  </h1>
+</div>
+`;

@@ -1,0 +1,890 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for TravelScript component Should render a closed travel 1`] = `
+Array [
+  <header
+    className="Header__StyledHeader-od5ehu-0 hIVEkQ"
+  >
+    <span
+      className="Brand__StyledBrand-sc-19fy8m0-0 jmSzTQ"
+    />
+    <nav
+      className="Menu__StyledMenu-w0f985-0 kGkgdR"
+    >
+      <ul
+        className="MenuList__StyledMenuList-sc-1bxu43p-0 ixFBrS"
+      >
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-plane Icon__StyledIcon-crr1cg-0 dYwZuZ"
+            disabled={false}
+            fontSize="2.5rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/"
+          >
+            Viagens
+          </a>
+        </li>
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-clients Icon__StyledIcon-crr1cg-0 bEFLZZ"
+            disabled={false}
+            fontSize="2rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/client"
+          >
+            Clientes
+          </a>
+        </li>
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-bookmark Icon__StyledIcon-crr1cg-0 jtTFhN"
+            disabled={false}
+            fontSize="2.3rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/library"
+          >
+            Biblioteca
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="Header__StyledOptions-od5ehu-1 hmosuQ"
+    >
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <img
+          alt="Johnny Silva"
+          className="DropdownPicture__StyledDropdownPicture-ylb9qy-0 iHpJFt"
+          src="https://api.adorable.io/avatars/100/tpt-platform"
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Meu perfil
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Registro de atividades
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Atualizado às 8:45
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <span
+          className="icon icon-notification Icon__StyledIcon-crr1cg-0 llBDkg"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Notificações
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Alteração serviço
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Há 2 minutos
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Lembrete: Preencher informações
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Ontem às 15:30
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <span
+          className="icon icon-config Icon__StyledIcon-crr1cg-0 llBDkg"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Configurações
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={[Function]}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Alterar senha
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 hOZFkb"
+            onClick={[Function]}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Sair
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>,
+  <section
+    className="App__SideBar-h8qnv1-0 cfDVBS"
+  >
+    <h1>
+      TravelCalendar
+    </h1>
+    <div
+      className="Tasks__StyledTasks-sc-1hy8ads-0 cjVtaH"
+    >
+      <h2
+        className="Title__StyledTitle-sc-11bxhsf-0 frSblw"
+      >
+        Tarefas
+      </h2>
+      <button
+        className="AddButton__StyledAddButon-ppf0uf-0 gwSZMh"
+        onClick={[Function]}
+      >
+        <span
+          className="icon icon-plus Icon__StyledIcon-crr1cg-0 jfRxiR"
+          disabled={false}
+          fontSize="0.8rem"
+          onClick={null}
+        />
+        Adicionar Tarefa
+      </button>
+      <div
+        className="Task__StyledTask-sc-1fi2258-0 cEDnPQ"
+      >
+        <span
+          className="TaskCheck__StyledTaskCheck-sc-1tgftv-0 kYiGLh"
+          onClick={[Function]}
+        >
+          <button
+            className="TaskCheck__StyledButton-sc-1tgftv-1 elQAyk"
+          />
+          <span
+            className="icon icon-check Icon__StyledIcon-crr1cg-0 llBDkg"
+            disabled={false}
+            fontSize="1.75rem"
+            onClick={null}
+          />
+        </span>
+        <div
+          className="TaskBody__StyledBody-sc-1p8y2k3-0 cOetdt"
+        >
+          <textarea
+            autoComplete="off"
+            className="TaskEdit__StyledTaskEdit-f5yune-0 kXgwgR"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            value="teste 123"
+          />
+        </div>
+        <span
+          className="TaskActions__StyledTaskActions-sc-92wkgs-0 fGXkbW"
+        >
+          <span
+            className="icon icon-times Icon__StyledIcon-crr1cg-0 efWoYG"
+            disabled={false}
+            fontSize="1.5rem"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </section>,
+  <main
+    className="Container__StyledContainer-sc-1i8buc6-0 SsRsD"
+  >
+    <div
+      className="TravelScriptList__TravelScriptHeader-ty58ph-0 fWwphJ"
+    >
+      <div />
+      <div
+        className="AddCollaborators__AddCollaboratorsContainer-sc-9j6qbx-0 jhjoiw"
+      >
+        <button
+          className="StyledInviteButton-sc-1iige8l-0 cJgVMw"
+          onClick={[Function]}
+        >
+          Convidar
+        </button>
+      </div>
+    </div>
+    <div
+      className="TravelScriptList__TravelMaterialButton-ty58ph-1 gldxts"
+    />
+    <div
+      className="TravelScriptList__TravelMaterialButton-ty58ph-1 gldxts"
+    />
+    <div
+      className="TravelScriptDay__StyledTravelScriptDay-uatujh-0 faduyg"
+    >
+      <div
+        className="TravelScriptDay__StyledSelects-uatujh-1 dFLRG"
+      >
+        <div
+          className="CitySelect__StyledCitySelect-p43eaz-1 jykjhD"
+        >
+          <div
+            className="CitySelect__StyledDayNumber-p43eaz-0 dnawfo"
+          >
+            1
+          </div>
+          <div
+            className="Select__StyledSelect-sc-12397s2-0 eBEwLw"
+          >
+            <div
+              className="SelectContainer__StyledSelectContainer-an3t0v-0 jYoLEQ"
+            >
+              <span
+                className="SelectText-eq3jk4-0 iwqxNL"
+                onClick={[Function]}
+              >
+                Selecione uma cidade...
+              </span>
+              <button
+                className="SelectDropdown__StyledSelectDropdown-sc-12m970x-0 RvUCy"
+                onClick={[Function]}
+                type="button"
+              />
+            </div>
+            <ul
+              className="SelectList__StyledSelectList-lfsn73-0 hIsMxM"
+            />
+          </div>
+          <div
+            className="CitySelect__StyledLine-p43eaz-2 glAxln"
+          />
+        </div>
+        <div
+          className="ServiceSelect__StyledServiceSelect-sc-1rmby0e-0 kwWXAN"
+        >
+          <div
+            className="Select__StyledSelect-sc-12397s2-0 eBEwLw"
+          >
+            <div
+              className="SelectContainer__StyledSelectContainer-an3t0v-0 jYoLEQ"
+            >
+              <span
+                className="SelectText-eq3jk4-0 iwqxNL"
+                onClick={[Function]}
+              >
+                <span
+                  className="icon icon-plus Icon__StyledIcon-crr1cg-0 llBDkg"
+                  disabled={false}
+                  fontSize="1.75rem"
+                  onClick={null}
+                />
+              </span>
+              <button
+                className="SelectDropdown__StyledSelectDropdown-sc-12m970x-0 RvUCy"
+                onClick={[Function]}
+                type="button"
+              />
+            </div>
+            <ul
+              className="SelectList__StyledSelectList-lfsn73-0 hIsMxM"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="TravelScriptDay__StyledDate-uatujh-2 kemUYJ"
+      >
+        15/02
+      </div>
+      <div
+        className="TravelScriptService__StyledTravelScript-n3v2ak-1 lhJYVv"
+      >
+        <span
+          className="TravelScriptService__StyledDelIcon-n3v2ak-0 ciWpmh"
+        >
+          <span
+            className="icon icon-times Icon__StyledIcon-crr1cg-0 efWoYG"
+            disabled={false}
+            fontSize="1.5rem"
+            onClick={[Function]}
+          />
+        </span>
+        <div
+          className="TravelScriptService__StyledService-n3v2ak-2 cdILFI"
+          onClick={[Function]}
+        >
+          <div
+            className="TravelScriptService__StyledBullet-n3v2ak-3 bvzinQ"
+            type="RESTAURANT"
+          />
+          <div
+            className="TravelScriptService__StyledServiceInformation-n3v2ak-4 gaWVbb"
+          >
+            <div
+              className="TravelScriptService__StyledType-n3v2ak-6 hGjoUD"
+            >
+              Restaurante
+            </div>
+            <span
+              className="TravelScriptService__StyledName-n3v2ak-5 kRnSnh"
+            >
+              Teste
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>,
+  <section
+    className="Summary__StyledSummary-sc-1mglm3x-0 fKeRKj"
+  />,
+]
+`;
+
+exports[`Tests for TravelScript component Should render withou crash 1`] = `
+Array [
+  <header
+    className="Header__StyledHeader-od5ehu-0 hIVEkQ"
+  >
+    <span
+      className="Brand__StyledBrand-sc-19fy8m0-0 jmSzTQ"
+    />
+    <nav
+      className="Menu__StyledMenu-w0f985-0 kGkgdR"
+    >
+      <ul
+        className="MenuList__StyledMenuList-sc-1bxu43p-0 ixFBrS"
+      >
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-plane Icon__StyledIcon-crr1cg-0 dYwZuZ"
+            disabled={false}
+            fontSize="2.5rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/"
+          >
+            Viagens
+          </a>
+        </li>
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-clients Icon__StyledIcon-crr1cg-0 bEFLZZ"
+            disabled={false}
+            fontSize="2rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/client"
+          >
+            Clientes
+          </a>
+        </li>
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-bookmark Icon__StyledIcon-crr1cg-0 jtTFhN"
+            disabled={false}
+            fontSize="2.3rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/library"
+          >
+            Biblioteca
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="Header__StyledOptions-od5ehu-1 hmosuQ"
+    >
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <img
+          alt="Johnny Silva"
+          className="DropdownPicture__StyledDropdownPicture-ylb9qy-0 iHpJFt"
+          src="https://api.adorable.io/avatars/100/tpt-platform"
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Meu perfil
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Registro de atividades
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Atualizado às 8:45
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <span
+          className="icon icon-notification Icon__StyledIcon-crr1cg-0 llBDkg"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Notificações
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Alteração serviço
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Há 2 minutos
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Lembrete: Preencher informações
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Ontem às 15:30
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <span
+          className="icon icon-config Icon__StyledIcon-crr1cg-0 llBDkg"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Configurações
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={[Function]}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Alterar senha
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 hOZFkb"
+            onClick={[Function]}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Sair
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>,
+  <section
+    className="App__SideBar-h8qnv1-0 cfDVBS"
+  >
+    <h1>
+      TravelCalendar
+    </h1>
+    <div
+      className="Tasks__StyledTasks-sc-1hy8ads-0 cjVtaH"
+    >
+      <h2
+        className="Title__StyledTitle-sc-11bxhsf-0 frSblw"
+      >
+        Tarefas
+      </h2>
+      <button
+        className="AddButton__StyledAddButon-ppf0uf-0 gwSZMh"
+        onClick={[Function]}
+      >
+        <span
+          className="icon icon-plus Icon__StyledIcon-crr1cg-0 jfRxiR"
+          disabled={false}
+          fontSize="0.8rem"
+          onClick={null}
+        />
+        Adicionar Tarefa
+      </button>
+      <div
+        className="Task__StyledTask-sc-1fi2258-0 cEDnPQ"
+      >
+        <span
+          className="TaskCheck__StyledTaskCheck-sc-1tgftv-0 kYiGLh"
+          onClick={[Function]}
+        >
+          <button
+            className="TaskCheck__StyledButton-sc-1tgftv-1 elQAyk"
+          />
+          <span
+            className="icon icon-check Icon__StyledIcon-crr1cg-0 llBDkg"
+            disabled={false}
+            fontSize="1.75rem"
+            onClick={null}
+          />
+        </span>
+        <div
+          className="TaskBody__StyledBody-sc-1p8y2k3-0 cOetdt"
+        >
+          <textarea
+            autoComplete="off"
+            className="TaskEdit__StyledTaskEdit-f5yune-0 kXgwgR"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            value="teste 123"
+          />
+        </div>
+        <span
+          className="TaskActions__StyledTaskActions-sc-92wkgs-0 fGXkbW"
+        >
+          <span
+            className="icon icon-times Icon__StyledIcon-crr1cg-0 efWoYG"
+            disabled={false}
+            fontSize="1.5rem"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </section>,
+  <main
+    className="Container__StyledContainer-sc-1i8buc6-0 SsRsD"
+  >
+    <div
+      className="TravelScriptList__TravelScriptHeader-ty58ph-0 fWwphJ"
+    >
+      <div />
+      <div
+        className="AddCollaborators__AddCollaboratorsContainer-sc-9j6qbx-0 jhjoiw"
+      >
+        <button
+          className="StyledInviteButton-sc-1iige8l-0 cJgVMw"
+          onClick={[Function]}
+        >
+          Convidar
+        </button>
+      </div>
+    </div>
+    <div
+      className="TravelScriptList__TravelMaterialButton-ty58ph-1 gldxts"
+    >
+      <button
+        className="Button__StyledButton-sc-1fc3klx-0 kXhdHl"
+        disabled={false}
+        fill={true}
+        onClick={[Function]}
+      >
+        Fechar material
+      </button>
+    </div>
+    <div
+      className="TravelScriptList__TravelMaterialButton-ty58ph-1 gldxts"
+    />
+    <div
+      className="TravelScriptDay__StyledTravelScriptDay-uatujh-0 faduyg"
+    >
+      <div
+        className="TravelScriptDay__StyledSelects-uatujh-1 dFLRG"
+      >
+        <div
+          className="CitySelect__StyledCitySelect-p43eaz-1 jykjhD"
+        >
+          <div
+            className="CitySelect__StyledDayNumber-p43eaz-0 dnawfo"
+          >
+            1
+          </div>
+          <div
+            className="Select__StyledSelect-sc-12397s2-0 eBEwLw"
+          >
+            <div
+              className="SelectContainer__StyledSelectContainer-an3t0v-0 jYoLEQ"
+            >
+              <span
+                className="SelectText-eq3jk4-0 iwqxNL"
+                onClick={[Function]}
+              >
+                Selecione uma cidade...
+              </span>
+              <button
+                className="SelectDropdown__StyledSelectDropdown-sc-12m970x-0 RvUCy"
+                onClick={[Function]}
+                type="button"
+              />
+            </div>
+            <ul
+              className="SelectList__StyledSelectList-lfsn73-0 hIsMxM"
+            />
+          </div>
+          <div
+            className="CitySelect__StyledLine-p43eaz-2 glAxln"
+          />
+        </div>
+        <div
+          className="ServiceSelect__StyledServiceSelect-sc-1rmby0e-0 kwWXAN"
+        >
+          <div
+            className="Select__StyledSelect-sc-12397s2-0 eBEwLw"
+          >
+            <div
+              className="SelectContainer__StyledSelectContainer-an3t0v-0 jYoLEQ"
+            >
+              <span
+                className="SelectText-eq3jk4-0 iwqxNL"
+                onClick={[Function]}
+              >
+                <span
+                  className="icon icon-plus Icon__StyledIcon-crr1cg-0 llBDkg"
+                  disabled={false}
+                  fontSize="1.75rem"
+                  onClick={null}
+                />
+              </span>
+              <button
+                className="SelectDropdown__StyledSelectDropdown-sc-12m970x-0 RvUCy"
+                onClick={[Function]}
+                type="button"
+              />
+            </div>
+            <ul
+              className="SelectList__StyledSelectList-lfsn73-0 hIsMxM"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="TravelScriptDay__StyledDate-uatujh-2 kemUYJ"
+      >
+        15/02
+      </div>
+      <div
+        className="TravelScriptService__StyledTravelScript-n3v2ak-1 lhJYVv"
+      >
+        <span
+          className="TravelScriptService__StyledDelIcon-n3v2ak-0 ciWpmh"
+        >
+          <span
+            className="icon icon-times Icon__StyledIcon-crr1cg-0 efWoYG"
+            disabled={false}
+            fontSize="1.5rem"
+            onClick={[Function]}
+          />
+        </span>
+        <div
+          className="TravelScriptService__StyledService-n3v2ak-2 cdILFI"
+          onClick={[Function]}
+        >
+          <div
+            className="TravelScriptService__StyledBullet-n3v2ak-3 bvzinQ"
+            type="RESTAURANT"
+          />
+          <div
+            className="TravelScriptService__StyledServiceInformation-n3v2ak-4 gaWVbb"
+          >
+            <div
+              className="TravelScriptService__StyledType-n3v2ak-6 hGjoUD"
+            >
+              Restaurante
+            </div>
+            <span
+              className="TravelScriptService__StyledName-n3v2ak-5 kRnSnh"
+            >
+              Teste
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>,
+  <section
+    className="Summary__StyledSummary-sc-1mglm3x-0 fKeRKj"
+  />,
+]
+`;

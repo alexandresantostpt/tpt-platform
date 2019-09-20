@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Summary container Should rendering without crash  1`] = `
+<section
+  className="Summary__StyledSummary-sc-1mglm3x-0 fKeRKj"
+>
+  <h1>
+    Must be show
+  </h1>
+</section>
+`;

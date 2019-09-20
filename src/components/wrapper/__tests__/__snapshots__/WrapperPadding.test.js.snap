@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for WrapperPadding component Should render without crash 1`] = `
+<div
+  className="WrapperPadding-ovjbyx-0 lcnoja"
+/>
+`;

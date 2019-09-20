@@ -1,0 +1,645 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Agency component Should render withou crash 1`] = `
+Array [
+  <header
+    className="Header__StyledHeader-od5ehu-0 hIVEkQ"
+  >
+    <span
+      className="Brand__StyledBrand-sc-19fy8m0-0 jmSzTQ"
+    />
+    <nav
+      className="Menu__StyledMenu-w0f985-0 kGkgdR"
+    >
+      <ul
+        className="MenuList__StyledMenuList-sc-1bxu43p-0 ixFBrS"
+      >
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-plane Icon__StyledIcon-crr1cg-0 dYwZuZ"
+            disabled={false}
+            fontSize="2.5rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/"
+          >
+            Viagens
+          </a>
+        </li>
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-clients Icon__StyledIcon-crr1cg-0 bEFLZZ"
+            disabled={false}
+            fontSize="2rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/client"
+          >
+            Clientes
+          </a>
+        </li>
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-bookmark Icon__StyledIcon-crr1cg-0 jtTFhN"
+            disabled={false}
+            fontSize="2.3rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/library"
+          >
+            Biblioteca
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="Header__StyledOptions-od5ehu-1 hmosuQ"
+    >
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <img
+          alt="Johnny Silva"
+          className="DropdownPicture__StyledDropdownPicture-ylb9qy-0 iHpJFt"
+          src="https://api.adorable.io/avatars/100/tpt-platform"
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Meu perfil
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Registro de atividades
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Atualizado às 8:45
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <span
+          className="icon icon-notification Icon__StyledIcon-crr1cg-0 llBDkg"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Notificações
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Alteração serviço
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Há 2 minutos
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Lembrete: Preencher informações
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Ontem às 15:30
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <span
+          className="icon icon-config Icon__StyledIcon-crr1cg-0 llBDkg"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Configurações
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={[Function]}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Alterar senha
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 hOZFkb"
+            onClick={[Function]}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Sair
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>,
+  <section
+    className="App__SideBar-h8qnv1-0 cfDVBS"
+  >
+    <h1>
+      TravelCalendar
+    </h1>
+    <div
+      className="Tasks__StyledTasks-sc-1hy8ads-0 cjVtaH"
+    >
+      <h2
+        className="Title__StyledTitle-sc-11bxhsf-0 frSblw"
+      >
+        Tarefas
+      </h2>
+      <button
+        className="AddButton__StyledAddButon-ppf0uf-0 gwSZMh"
+        onClick={[Function]}
+      >
+        <span
+          className="icon icon-plus Icon__StyledIcon-crr1cg-0 jfRxiR"
+          disabled={false}
+          fontSize="0.8rem"
+          onClick={null}
+        />
+        Adicionar Tarefa
+      </button>
+      <div
+        className="Task__StyledTask-sc-1fi2258-0 cEDnPQ"
+      >
+        <span
+          className="TaskCheck__StyledTaskCheck-sc-1tgftv-0 kYiGLh"
+          onClick={[Function]}
+        >
+          <button
+            className="TaskCheck__StyledButton-sc-1tgftv-1 elQAyk"
+          />
+          <span
+            className="icon icon-check Icon__StyledIcon-crr1cg-0 llBDkg"
+            disabled={false}
+            fontSize="1.75rem"
+            onClick={null}
+          />
+        </span>
+        <div
+          className="TaskBody__StyledBody-sc-1p8y2k3-0 cOetdt"
+        >
+          <textarea
+            autoComplete="off"
+            className="TaskEdit__StyledTaskEdit-f5yune-0 kXgwgR"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            value="teste 123"
+          />
+        </div>
+        <span
+          className="TaskActions__StyledTaskActions-sc-92wkgs-0 fGXkbW"
+        >
+          <span
+            className="icon icon-times Icon__StyledIcon-crr1cg-0 efWoYG"
+            disabled={false}
+            fontSize="1.5rem"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </section>,
+  <main
+    className="Container__StyledContainer-sc-1i8buc6-0 SsRsD"
+  >
+    <div
+      className="AgencyList__StyledHeader-sc-1kva3no-0 eXFpEK"
+    >
+      <div
+        className="Search__StyledSearch-sc-1rsqafp-0 iZTykq"
+      >
+        <input
+          className="Search__StyledSearchInput-sc-1rsqafp-1 gOzgfR"
+          onChange={[Function]}
+          placeholder="Pesquise agências"
+        />
+        <span
+          className="icon icon-search Icon__StyledIcon-crr1cg-0 cmTdMB"
+          disabled={false}
+          fontSize="0.9rem"
+          onClick={null}
+        />
+      </div>
+      <button
+        className="Button__StyledButton-sc-1fc3klx-0 cyrdMB"
+        disabled={false}
+        fill={false}
+        onClick={[Function]}
+      >
+        Nova agência
+      </button>
+    </div>
+    <table
+      className="Table__StyledTable-y4is3j-0 fabprq"
+    >
+      <thead>
+        <tr
+          className="TableHeaderRow__StyledTableHeaderRow-bvb8hb-0 Nmgc"
+        >
+          <th
+            className="TableHeaderColumn__StyledTableHeaderColumn-stotn-0 cdraHa"
+            onClick={[Function]}
+          >
+            Status
+             
+            <span
+              className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 llBDkg"
+              disabled={false}
+              fontSize="1.75rem"
+              onClick={null}
+            />
+          </th>
+          <th
+            className="TableHeaderColumn__StyledTableHeaderColumn-stotn-0 cdraHa"
+            onClick={[Function]}
+          >
+            Agência
+             
+            <span
+              className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 llBDkg"
+              disabled={false}
+              fontSize="1.75rem"
+              onClick={null}
+            />
+          </th>
+          <th
+            className="TableHeaderColumn__StyledTableHeaderColumn-stotn-0 cdraHa"
+            onClick={[Function]}
+          >
+            Administrador
+             
+            <span
+              className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 llBDkg"
+              disabled={false}
+              fontSize="1.75rem"
+              onClick={null}
+            />
+          </th>
+          <th
+            className="TableHeaderColumn__StyledTableHeaderColumn-stotn-0 cdraHa"
+            onClick={[Function]}
+          >
+            Último acesso
+             
+            <span
+              className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 llBDkg"
+              disabled={false}
+              fontSize="1.75rem"
+              onClick={null}
+            />
+          </th>
+          <th
+            className="TableHeaderColumn__StyledTableHeaderColumn-stotn-0 cdraHa"
+            onClick={[Function]}
+          >
+            
+             
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </main>,
+  <section
+    className="Summary__StyledSummary-sc-1mglm3x-0 fKeRKj"
+  >
+    <form
+      className="FormBuilder__StyledForm-c1htou-0 PZxQa"
+      onSubmit={[Function]}
+    >
+      <div
+        className="form__container"
+      >
+        <div
+          className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+        >
+          <label
+            className="FormLabel__StyledFormLabel-vu10xa-0 dTqfRJ"
+          >
+            Nome da agência
+            
+            <span
+              className="FormRequired__StyledFormRequired-svb7d8-0 eWTUXS"
+            >
+               *
+            </span>
+          </label>
+          <input
+            className="FormField__Field-sc-1at7ilr-0 bMCrTq FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+            data-cy="input-socialName"
+            disabled={false}
+            id="socialName"
+            maxLength={255}
+            name="socialName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            readOnly={false}
+            required={true}
+            type="text"
+            value="Agência testes"
+          />
+        </div>
+        <div
+          className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+        >
+          <label
+            className="FormLabel__StyledFormLabel-vu10xa-0 dTqfRJ"
+          >
+            CNPJ
+            
+            <span
+              className="FormRequired__StyledFormRequired-svb7d8-0 eWTUXS"
+            >
+               *
+            </span>
+          </label>
+          <input
+            className="FormField__Field-sc-1at7ilr-0 bMCrTq FormInputMask__StyledFormInputMask-sc-1ltqnwb-0 leVwm"
+            data-cy="input-cnpj"
+            disabled={false}
+            id="cnpj"
+            isInvalid={false}
+            name="cnpj"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  3,
+                  3,
+                  4,
+                  2,
+                ],
+                "delimiters": Array [
+                  ".",
+                  ".",
+                  "/",
+                  "-",
+                ],
+              }
+            }
+            readOnly={true}
+            required={true}
+            type="mask"
+            value="12.123.123/1234-12"
+          />
+        </div>
+        <div
+          className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+        >
+          <label
+            className="FormLabel__StyledFormLabel-vu10xa-0 dTqfRJ"
+          >
+            Nome do administrador
+            
+            <span
+              className="FormRequired__StyledFormRequired-svb7d8-0 eWTUXS"
+            >
+               *
+            </span>
+          </label>
+          <input
+            className="FormField__Field-sc-1at7ilr-0 bMCrTq FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+            data-cy="input-nameAdm"
+            disabled={false}
+            id="nameAdm"
+            maxLength={255}
+            name="nameAdm"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            readOnly={false}
+            required={true}
+            type="text"
+            value="Adm teste"
+          />
+        </div>
+        <div
+          className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+        >
+          <label
+            className="FormLabel__StyledFormLabel-vu10xa-0 dTqfRJ"
+          >
+            CPF do administrador
+            
+            <span
+              className="FormRequired__StyledFormRequired-svb7d8-0 eWTUXS"
+            >
+               *
+            </span>
+          </label>
+          <input
+            className="FormField__Field-sc-1at7ilr-0 bMCrTq FormInputMask__StyledFormInputMask-sc-1ltqnwb-0 leVwm"
+            data-cy="input-cpfAdm"
+            disabled={false}
+            id="cpfAdm"
+            isInvalid={false}
+            name="cpfAdm"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  3,
+                  3,
+                  3,
+                  2,
+                ],
+                "delimiters": Array [
+                  ".",
+                  ".",
+                  "-",
+                ],
+              }
+            }
+            readOnly={true}
+            required={true}
+            type="mask"
+            value="437.958.818-11"
+          />
+        </div>
+        <div
+          className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+        >
+          <label
+            className="FormLabel__StyledFormLabel-vu10xa-0 dTqfRJ"
+          >
+            E-mail do administrador
+            
+            <span
+              className="FormRequired__StyledFormRequired-svb7d8-0 eWTUXS"
+            >
+               *
+            </span>
+          </label>
+          <input
+            className="FormField__Field-sc-1at7ilr-0 bMCrTq FormInput__StyledFormInput-sc-77s1r2-0 jcCQHd"
+            data-cy="input-emailAdm"
+            disabled={false}
+            id="emailAdm"
+            maxLength={255}
+            name="emailAdm"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder=""
+            readOnly={true}
+            required={true}
+            type="text"
+            value="teste@teste.com.br"
+          />
+        </div>
+        <div
+          className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+        >
+          <select
+            className="FormSelect__StyledFormSelect-sc-1iyz1uk-0 CPsvA"
+            onChange={[Function]}
+            value=""
+          >
+            <option
+              disabled={true}
+              hidden={true}
+              value=""
+            >
+              Definição de acesso...
+            </option>
+            <option
+              value="false"
+            >
+              Liberado
+            </option>
+            <option
+              value="true"
+            >
+              Bloqueado
+            </option>
+          </select>
+        </div>
+      </div>
+    </form>
+    <div
+      className="FormButtonContainer-sc-1cqqivn-0 ADyLt"
+    >
+      <button
+        className="Button__StyledButton-sc-1fc3klx-0 cyrdMB"
+        disabled={false}
+        fill={false}
+        onClick={[Function]}
+      >
+        Salvar
+      </button>
+      <a
+        className="CancelForm__StyledCancel-jf7x9v-0 hTbSZg"
+        onClick={[Function]}
+      >
+        Cancelar
+      </a>
+    </div>
+  </section>,
+]
+`;

@@ -1,0 +1,707 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for TourForm component Should render withou crash 1`] = `
+Array [
+  <div
+    className="WrapperPadding-ovjbyx-0 lcnoja"
+  >
+    <div
+      className="Panel__StyledPanel-sc-1qzkpb6-0 cGUlCn"
+    >
+      <span
+        className="Panel__StyledIcon-sc-1qzkpb6-2 iavvSk"
+      >
+        <span
+          className="icon icon-tour Icon__StyledIcon-crr1cg-0 dfhcZR"
+          disabled={false}
+          fontSize="3rem"
+          onClick={null}
+        />
+      </span>
+      <div
+        className="UploadButton__StyledContainer-sc-1p8zoc-0 fpZFIG"
+      >
+        <label
+          className="UploadButton__StyledUploadButton-sc-1p8zoc-3 ivhrYW"
+          htmlFor="inputFile"
+        >
+          +
+        </label>
+        <input
+          accept="image/png, image/jpeg"
+          className="UploadButton__InputFile-sc-1p8zoc-4 eLaooA"
+          id="inputFile"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+    </div>
+    <ul
+      className="PanelActions__StyledActions-sc-8xk8c8-0 lllkGw"
+    />
+  </div>,
+  <form
+    className="FormBuilder__StyledForm-c1htou-0 PZxQa"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form__container"
+    >
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Título do passeio
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormSuggest__StyledAutosuggest-d8stcq-0 gUlkuf"
+        >
+          <div
+            aria-expanded={false}
+            aria-haspopup="listbox"
+            aria-owns="react-autowhatever-library.name"
+            className="react-autosuggest__container"
+            role="combobox"
+          >
+            <input
+              aria-activedescendant={null}
+              aria-autocomplete="list"
+              aria-controls="react-autowhatever-library.name"
+              autoComplete="off"
+              className="react-autosuggest__input"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+            <div
+              className="react-autosuggest__suggestions-container"
+              id="react-autowhatever-library.name"
+              role="listbox"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Itinerário/descrição do passeio
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <textarea
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormTextArea__StyledFormText-sc-9g3u2c-0 hmDUjT"
+          data-cy="input-library.describe"
+          disabled={false}
+          id="describe"
+          isInvalid={false}
+          name="library.describe"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Data do passeio
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormDate__StyledFormDate-sc-1cgz0rk-0 ebKpCI"
+        >
+          <div
+            className="SingleDatePicker SingleDatePicker_1"
+          >
+            <div>
+              <div
+                className="SingleDatePickerInput SingleDatePickerInput_1"
+              >
+                <div
+                  className="DateInput DateInput_1"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-"
+                    aria-label="Selecione uma data..."
+                    autoComplete="off"
+                    className="DateInput_input DateInput_input_1 DateInput_input__readOnly DateInput_input__readOnly_2"
+                    disabled={false}
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="Selecione uma data..."
+                    readOnly={true}
+                    required={false}
+                    type="text"
+                    value="01 Feb 2019"
+                  />
+                  <p
+                    className="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                    id="DateInput__screen-reader-message-"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                </div>
+                <button
+                  className="SingleDatePickerInput_calendarIcon SingleDatePickerInput_calendarIcon_1"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon icon-calendar Icon__StyledIcon-crr1cg-0 cmjVJQ"
+                    disabled={false}
+                    fontSize="1.75rem"
+                    onClick={null}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Horário de saída
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value="02:00"
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Endereço
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-address"
+          disabled={false}
+          id="address"
+          maxLength={255}
+          name="address"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Telefone de contato
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.phoneNumber"
+          disabled={false}
+          id="phoneNumber"
+          maxLength={30}
+          name="library.phoneNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Site
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-site"
+          disabled={false}
+          id="site"
+          maxLength={255}
+          name="site"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Duração aproximada do passeio
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.duration"
+          disabled={false}
+          id="duration"
+          maxLength={15}
+          name="library.duration"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Quantidade de viajantes
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-peopleCount"
+          disabled={false}
+          id="peopleCount"
+          maxLength={255}
+          min={1}
+          name="peopleCount"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="number"
+          value={5}
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Operador local
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-localOperator"
+          disabled={false}
+          id="localOperator"
+          maxLength={120}
+          name="localOperator"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="Teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Meio de transporte
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-transferType"
+          disabled={false}
+          id="transferType"
+          maxLength={30}
+          name="transferType"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Linguagem
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.language"
+          disabled={false}
+          id="language"
+          maxLength={30}
+          name="library.language"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Tipo de passeio
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.tourType-Privativo"
+            name="library.tourType-Privativo"
+            onChange={[Function]}
+            type="radio"
+            value="Privativo"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Privativo
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.tourType-Regular"
+            name="library.tourType-Regular"
+            onChange={[Function]}
+            type="radio"
+            value="Regular"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Regular
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Guia ou motorista
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={true}
+            disabled={false}
+            id="guideOrDriver-Guia"
+            name="guideOrDriver-Guia"
+            onChange={[Function]}
+            type="radio"
+            value="Guia"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Guia
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="guideOrDriver-Motorista"
+            name="guideOrDriver-Motorista"
+            onChange={[Function]}
+            type="radio"
+            value="Motorista"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Motorista
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Refeições inclusas
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormCheck__StyledOption-sc-4ngozm-1 Tgnbj"
+        >
+          <input
+            checked={false}
+            id="breakfast"
+            name="breakfast"
+            onChange={[Function]}
+            type="checkbox"
+            value="breakfast"
+          />
+          <span
+            className="FormCheck__StyledLabel-sc-4ngozm-0 ijqNlP"
+          >
+            Café da manhã
+          </span>
+        </div>
+        <div
+          className="FormCheck__StyledOption-sc-4ngozm-1 Tgnbj"
+        >
+          <input
+            checked={false}
+            id="lunch"
+            name="lunch"
+            onChange={[Function]}
+            type="checkbox"
+            value="lunch"
+          />
+          <span
+            className="FormCheck__StyledLabel-sc-4ngozm-0 ijqNlP"
+          >
+            Almoço
+          </span>
+        </div>
+        <div
+          className="FormCheck__StyledOption-sc-4ngozm-1 Tgnbj"
+        >
+          <input
+            checked={false}
+            id="dinner"
+            name="dinner"
+            onChange={[Function]}
+            type="checkbox"
+            value="dinner"
+          />
+          <span
+            className="FormCheck__StyledLabel-sc-4ngozm-0 ijqNlP"
+          >
+            Jantar
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Selecionar passageiros
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Observações
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-observation"
+          disabled={false}
+          id="observation"
+          maxLength={255}
+          name="observation"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </form>,
+  <div
+    className="FormButtonContainer-sc-1cqqivn-0 ADyLt"
+  >
+    <button
+      className="Button__StyledButton-sc-1fc3klx-0 bEGBgE"
+      disabled={false}
+      fill={false}
+      onClick={[Function]}
+    >
+      Salvar serviço
+    </button>
+    <a
+      className="Cancel__StyledCancel-sc-1prgtit-0 WzuoR"
+      to="/travel/5c52ebcd5fc7c949223ab705/script"
+    >
+      Cancelar
+    </a>
+  </div>,
+]
+`;

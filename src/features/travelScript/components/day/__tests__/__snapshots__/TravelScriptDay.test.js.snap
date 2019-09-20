@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for TravelScript component Should render withou crash 1`] = `
+<div
+  className="TravelScriptDay__StyledTravelScriptDay-uatujh-0 faduyg"
+>
+  <div
+    className="TravelScriptDay__StyledSelects-uatujh-1 dFLRG"
+  >
+    <div
+      className="CitySelect__StyledCitySelect-p43eaz-1 jykjhD"
+    >
+      <div
+        className="CitySelect__StyledDayNumber-p43eaz-0 bsIoHV"
+      >
+        1
+      </div>
+      <div
+        className="Select__StyledSelect-sc-12397s2-0 eBEwLw"
+      >
+        <div
+          className="SelectContainer__StyledSelectContainer-an3t0v-0 jYoLEQ"
+        >
+          <span
+            className="SelectText-eq3jk4-0 bQbIba"
+            onClick={[Function]}
+          >
+            Selecione uma cidade...
+          </span>
+          <button
+            className="SelectDropdown__StyledSelectDropdown-sc-12m970x-0 fwdrhv"
+            onClick={[Function]}
+            type="button"
+          />
+        </div>
+        <ul
+          className="SelectList__StyledSelectList-lfsn73-0 BSOrt"
+        />
+      </div>
+      <div
+        className="CitySelect__StyledLine-p43eaz-2 fDfKbI"
+      />
+    </div>
+    <div
+      className="ServiceSelect__StyledServiceSelect-sc-1rmby0e-0 kwWXAN"
+    >
+      <div
+        className="Select__StyledSelect-sc-12397s2-0 eBEwLw"
+      >
+        <div
+          className="SelectContainer__StyledSelectContainer-an3t0v-0 jYoLEQ"
+        >
+          <span
+            className="SelectText-eq3jk4-0 bQbIba"
+            onClick={[Function]}
+          >
+            <span
+              className="icon icon-plus Icon__StyledIcon-crr1cg-0 cmjVJQ"
+              disabled={false}
+              fontSize="1.75rem"
+              onClick={null}
+            />
+          </span>
+          <button
+            className="SelectDropdown__StyledSelectDropdown-sc-12m970x-0 fwdrhv"
+            onClick={[Function]}
+            type="button"
+          />
+        </div>
+        <ul
+          className="SelectList__StyledSelectList-lfsn73-0 BSOrt"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="TravelScriptDay__StyledDate-uatujh-2 kemUYJ"
+  >
+    18/03
+  </div>
+  <div
+    className="TravelScriptDay__StyledText-uatujh-3 cAuILL"
+  >
+    Nenhum serviço foi adicionado nesse dia
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Title component Should rendering without crash  1`] = `
+<h2
+  className="Title__StyledTitle-sc-11bxhsf-0 frSblw"
+>
+  My test
+</h2>
+`;

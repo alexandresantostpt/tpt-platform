@@ -1,0 +1,30 @@
+---
+menu: Table
+name: TableBodyRow
+route: /table/body/row
+---
+import { Playground, PropsTable } from 'docz'
+
+import TableBodyRow from './TableBodyRow'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# TableBodyRow
+
+<PropsTable of={ TableBodyRow }/>
+
+## Basic Usage
+
+```
+<TableBodyRow columns={ ARRAY_COLUMNS_NAME } item={ DATA_OBJECT }/>
+```
+
+<Playground>
+    <TableBodyRow
+        columns={ [ 'status', 'clientName', 'destiny', 'date' ] }
+        item={
+            { clientName: 'Sra. Camila Santos', date: '20/04/2018', destiny: 'Itália, Florença', status: 'Em viagem' }
+        }
+    />
+</Playground>

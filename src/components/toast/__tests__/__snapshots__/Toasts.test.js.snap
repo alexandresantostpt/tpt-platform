@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Toasts component Should render without crash 1`] = `
+<div
+  className="Toasts__StyledToasts-sc-1cyti9o-0 cmesOl"
+  data-cy="notifications"
+>
+  <div
+    className="Toasts__StyledToast-sc-1cyti9o-1 boWJBO"
+    data-cy="notification"
+    onClick={[Function]}
+    type="success"
+  >
+    <span
+      className="Toasts__StyledToastIcon-sc-1cyti9o-2 eMcvfw"
+      data-cy="notification-icon"
+    >
+      <span
+        className="icon icon-check Icon__StyledIcon-crr1cg-0 cmjVJQ"
+        disabled={false}
+        fontSize="1.75rem"
+        onClick={null}
+      />
+    </span>
+    <p
+      className="Toasts__StyledToastMessage-sc-1cyti9o-3 hoIoif"
+      data-cy="notification-message"
+    >
+      success
+    </p>
+  </div>
+</div>
+`;

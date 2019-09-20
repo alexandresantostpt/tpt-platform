@@ -1,0 +1,31 @@
+---
+menu: FormTag
+name: TagInputList
+route: /components/form/FormTag/list
+---
+
+import { Playground, PropsTable } from 'docz'
+
+import TagInputList from './TagInputList'
+import TagInputItem from '../item/TagInputItem'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# TagInputList
+
+<PropsTable of={TagInputList} />
+
+## Basic usage
+
+```
+<TagInputList>
+    <TagInputItem onClick={ () => console.log('Click...')}>MY_ITEM</TagInputItem>
+</TagInputList>
+```
+
+<Playground>
+    <TagInputList>
+        <TagInputItem onClick={() => console.log('Click...')}>MY_ITEM</TagInputItem>
+    </TagInputList>
+</Playground>

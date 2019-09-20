@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for NewButton component Should rendering without crash 1`] = `
+<button
+  className="NewButton__StyledNewButton-jzgmrj-0 gQxFVe"
+>
+  <span
+    className="icon icon-plus Icon__StyledIcon-crr1cg-0 cmjVJQ"
+    disabled={false}
+    fontSize="1.75rem"
+    onClick={null}
+  />
+</button>
+`;

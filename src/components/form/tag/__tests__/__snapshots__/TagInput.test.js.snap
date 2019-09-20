@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for TagInput component Should render without crash 1`] = `
+Array [
+  <ul
+    className="TagInputList__StyledList-sc-10dh3l6-0 fIqMKr"
+  />,
+  <div
+    className="TagInputContainer__StyledInputContainer-qji6kn-0 iBoEuw"
+  >
+    <div
+      className="CitiesSuggest__StyledAutosuggest-sc-15ojzwf-0 jIAIbN"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-owns="react-autowhatever-MY_INPUT"
+        className="react-autosuggest__container"
+        role="combobox"
+      >
+        <input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls="react-autowhatever-MY_INPUT"
+          autoComplete="off"
+          className="react-autosuggest__input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="react-autosuggest__suggestions-container"
+          id="react-autowhatever-MY_INPUT"
+          role="listbox"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;

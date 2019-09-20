@@ -1,0 +1,46 @@
+---
+menu: FormTag
+name: FormTag
+route: /components/form/FormTag
+---
+
+import { Playground, PropsTable } from 'docz'
+
+import FormTag from './FormTag'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# FormTag
+
+<PropsTable of={FormTag} />
+
+## Basic usage
+
+```
+<FormTag
+    form={ FORM_REF }
+    id="MY_INPUT"
+    name="MY_INPUT"
+    onBlur={ () => console.log('Blur...') }
+    onChange={ () => console.log('Change...') }
+    onFocus={ () => console.log('Focus...') }
+    required={ true }
+    type="text"
+    value="MY_VALUE"
+/>
+```
+
+<Playground>
+    <FormTag
+        form={{}}
+        id="MY_INPUT"
+        name="MY_INPUT"
+        onBlur={() => console.log('Blur...')}
+        onChange={() => console.log('Change...')}
+        onFocus={() => console.log('Focus...')}
+        required={true}
+        type="text"
+        value="MY_VALUE"
+    />
+</Playground>

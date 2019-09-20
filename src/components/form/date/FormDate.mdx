@@ -1,0 +1,32 @@
+---
+menu: Form
+name: FormDate
+route: /form/date
+---
+import { Playground, PropsTable } from 'docz'
+
+import FormDate from './FormDate'
+
+import '@cfg/scripts'
+import '@cfg/style'
+import '@cfg/datePicker'
+import '@css/override.css'
+
+# FormDate
+<PropsTable of={ FormDate }/>
+
+## Basic usage
+
+```
+<FormDate
+    name="clientName"
+    onDateSelect={ date => console.log(date) }
+/>
+```
+
+<Playground>
+    <FormDate
+        name="clientName"
+        onDateSelect={ date => console.log(date) }
+    />
+</Playground>

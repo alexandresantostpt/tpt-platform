@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for App container Should rendering without crash  1`] = `
+Array [
+  <header
+    className="Header__StyledHeader-od5ehu-0 hIVEkQ"
+  >
+    <span
+      className="Brand__StyledBrand-sc-19fy8m0-0 jmSzTQ"
+    />
+    <nav
+      className="Menu__StyledMenu-w0f985-0 kGkgdR"
+    >
+      <ul
+        className="MenuList__StyledMenuList-sc-1bxu43p-0 ixFBrS"
+      >
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-plane Icon__StyledIcon-crr1cg-0 dYwZuZ"
+            disabled={false}
+            fontSize="2.5rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/"
+          >
+            Viagens
+          </a>
+        </li>
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-clients Icon__StyledIcon-crr1cg-0 bEFLZZ"
+            disabled={false}
+            fontSize="2rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/client"
+          >
+            Clientes
+          </a>
+        </li>
+        <li
+          className="MenuItem__StyledMenuItem-zqooc6-0 UmzxF"
+        >
+          <span
+            className="icon icon-bookmark Icon__StyledIcon-crr1cg-0 jtTFhN"
+            disabled={false}
+            fontSize="2.3rem"
+            onClick={null}
+          />
+          <a
+            className="MenuLink__StyledMenuLink-sc-14ijefa-0 fyvrdK"
+            to="/library"
+          >
+            Biblioteca
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="Header__StyledOptions-od5ehu-1 hmosuQ"
+    >
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <img
+          alt="Johnny Silva"
+          className="DropdownPicture__StyledDropdownPicture-ylb9qy-0 iHpJFt"
+          src="https://api.adorable.io/avatars/100/tpt-platform"
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Meu perfil
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Registro de atividades
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Atualizado às 8:45
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <span
+          className="icon icon-notification Icon__StyledIcon-crr1cg-0 llBDkg"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Notificações
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Alteração serviço
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Há 2 minutos
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={null}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Lembrete: Preencher informações
+            </span>
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+            >
+              Ontem às 15:30
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <span
+          className="icon icon-config Icon__StyledIcon-crr1cg-0 llBDkg"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+        <ul
+          className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+        >
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+            onClick={null}
+          >
+            <span
+              className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+            >
+              Configurações
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+            onClick={[Function]}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Alterar senha
+            </span>
+          </li>
+          <li
+            className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 hOZFkb"
+            onClick={[Function]}
+          >
+            <span
+              className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+            >
+              Sair
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>,
+  <section
+    className="App__SideBar-h8qnv1-0 cfDVBS"
+  >
+    <h1>
+      TravelCalendar
+    </h1>
+    <div
+      className="Tasks__StyledTasks-sc-1hy8ads-0 cjVtaH"
+    >
+      <h2
+        className="Title__StyledTitle-sc-11bxhsf-0 frSblw"
+      >
+        Tarefas
+      </h2>
+      <button
+        className="AddButton__StyledAddButon-ppf0uf-0 gwSZMh"
+        onClick={[Function]}
+      >
+        <span
+          className="icon icon-plus Icon__StyledIcon-crr1cg-0 jfRxiR"
+          disabled={false}
+          fontSize="0.8rem"
+          onClick={null}
+        />
+        Adicionar Tarefa
+      </button>
+      <div
+        className="Task__StyledTask-sc-1fi2258-0 cEDnPQ"
+      >
+        <span
+          className="TaskCheck__StyledTaskCheck-sc-1tgftv-0 kYiGLh"
+          onClick={[Function]}
+        >
+          <button
+            className="TaskCheck__StyledButton-sc-1tgftv-1 elQAyk"
+          />
+          <span
+            className="icon icon-check Icon__StyledIcon-crr1cg-0 llBDkg"
+            disabled={false}
+            fontSize="1.75rem"
+            onClick={null}
+          />
+        </span>
+        <div
+          className="TaskBody__StyledBody-sc-1p8y2k3-0 cOetdt"
+        >
+          <textarea
+            autoComplete="off"
+            className="TaskEdit__StyledTaskEdit-f5yune-0 kXgwgR"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            value="teste 123"
+          />
+        </div>
+        <span
+          className="TaskActions__StyledTaskActions-sc-92wkgs-0 fGXkbW"
+        >
+          <span
+            className="icon icon-times Icon__StyledIcon-crr1cg-0 efWoYG"
+            disabled={false}
+            fontSize="1.5rem"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </section>,
+  <h1>
+    Must be show
+  </h1>,
+]
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Input component Should rendering without crash 1`] = `
+<div
+  className="Input__StyledBox-sc-4bhgmp-0 gcStMN"
+>
+  <input
+    className="Input__StyledInput-sc-4bhgmp-3 hoXjZP"
+    id="teste"
+    onChange={[Function]}
+    required={true}
+    type="text"
+  />
+  <label
+    className="Input__StyledLabel-sc-4bhgmp-2 lcosGj"
+    htmlFor="teste"
+  >
+     
+    
+     
+  </label>
+</div>
+`;

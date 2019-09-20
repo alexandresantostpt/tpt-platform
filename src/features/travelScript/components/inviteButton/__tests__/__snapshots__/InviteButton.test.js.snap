@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for InviteButton component Should render default button 1`] = `
+<button
+  className="StyledInviteButton-sc-1iige8l-0 cJgVMw"
+  onClick={null}
+>
+  Convidar
+</button>
+`;
+
+exports[`Tests for InviteButton component Should render round button 1`] = `
+<div
+  className="AddButton-sc-3y6odv-0 cOrHuk"
+  onClick={null}
+>
+  +
+</div>
+`;

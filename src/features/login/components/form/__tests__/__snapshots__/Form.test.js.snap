@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Form component Should rendering without crash 1`] = `
+<form
+  className="Form__StyledForm-sc-2b0hvf-0 hgpEDk"
+>
+  <h1>
+    Must be show!
+  </h1>
+</form>
+`;

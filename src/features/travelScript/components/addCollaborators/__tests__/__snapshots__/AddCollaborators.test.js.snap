@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for AddCollaborator component Should render with given props 1`] = `
+<div
+  className="AddCollaborators__AddCollaboratorsContainer-sc-9j6qbx-0 jhjoiw"
+>
+  <div
+    className="Avatars__AvatarsContainer-b9jyqp-2 kWDNTJ"
+  >
+    <div
+      className="Avatars__AvaatarsWrap-b9jyqp-3 icEjmW"
+    >
+      <div
+        className="DefaultAvatar__AvatarContainer-sc-1lk30og-0 dWocpW"
+        data-tip="test1"
+        onClick={[Function]}
+        size={2.3125}
+      >
+        T
+      </div>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+      />
+      <button
+        className="Avatars__AvatarsButton-b9jyqp-0 hQNgWs"
+        onClick={[Function]}
+      >
+        <span
+          className="Avatars__AvatarsIcon-b9jyqp-1 gZdRTM"
+        />
+      </button>
+    </div>
+    <div
+      className="Avatars__AvaatarsWrap-b9jyqp-3 icEjmW"
+    >
+      <div
+        className="DefaultAvatar__AvatarContainer-sc-1lk30og-0 dWocpW"
+        data-tip="test2"
+        onClick={[Function]}
+        size={2.3125}
+      >
+        T
+      </div>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+      />
+      <button
+        className="Avatars__AvatarsButton-b9jyqp-0 hQNgWs"
+        onClick={[Function]}
+      >
+        <span
+          className="Avatars__AvatarsIcon-b9jyqp-1 gZdRTM"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="AddButton-sc-3y6odv-0 cOrHuk"
+    onClick={[Function]}
+  >
+    +
+  </div>
+</div>
+`;
+
+exports[`Tests for AddCollaborator component Should render without crash 1`] = `
+<div
+  className="AddCollaborators__AddCollaboratorsContainer-sc-9j6qbx-0 jhjoiw"
+>
+  <button
+    className="StyledInviteButton-sc-1iige8l-0 cJgVMw"
+    onClick={[Function]}
+  >
+    Convidar
+  </button>
+</div>
+`;

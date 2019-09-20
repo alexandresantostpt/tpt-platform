@@ -1,0 +1,35 @@
+---
+menu: Dropdown
+name: DropdownItem
+route: /dropdown/item
+---
+import { Playground, PropsTable } from 'docz'
+
+import DropdownItem from './DropdownItem'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# DropdownItem
+<PropsTable of={ DropdownItem }/>
+
+## Basic usage
+
+```
+<DropdownItem>johnny.silva@teresaperez.com.br</DropdownItem>
+```
+
+<Playground>
+    <DropdownItem>johnny.silva@teresaperez.com.br</DropdownItem>
+</Playground>
+
+### Bigger
+Show item with more padding
+
+```
+<DropdownItem bigger>Johnny Silva</DropdownItem>
+```
+
+<Playground>
+    <DropdownItem bigger>Johnny Silva</DropdownItem>
+</Playground>

@@ -1,0 +1,1060 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Restaurant component Should render withou crash 1`] = `
+Array [
+  <div
+    className="WrapperPadding-ovjbyx-0 lcnoja"
+  >
+    <div
+      className="Panel__StyledPanel-sc-1qzkpb6-0 cGUlCn"
+    >
+      <span
+        className="Panel__StyledIcon-sc-1qzkpb6-2 iavvSk"
+      >
+        <span
+          className="icon icon-restaurant Icon__StyledIcon-crr1cg-0 dfhcZR"
+          disabled={false}
+          fontSize="3rem"
+          onClick={null}
+        />
+      </span>
+      <div
+        className="UploadButton__StyledContainer-sc-1p8zoc-0 fpZFIG"
+      >
+        <label
+          className="UploadButton__StyledUploadButton-sc-1p8zoc-3 ivhrYW"
+          htmlFor="inputFile"
+        >
+          +
+        </label>
+        <input
+          accept="image/png, image/jpeg"
+          className="UploadButton__InputFile-sc-1p8zoc-4 eLaooA"
+          id="inputFile"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+    </div>
+    <ul
+      className="PanelActions__StyledActions-sc-8xk8c8-0 lllkGw"
+    />
+  </div>,
+  <form
+    className="FormBuilder__StyledForm-c1htou-0 PZxQa"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form__container"
+    >
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Título
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.name"
+          disabled={false}
+          id="title"
+          maxLength={120}
+          name="library.name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Descrição
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <textarea
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormTextArea__StyledFormText-sc-9g3u2c-0 hmDUjT"
+          data-cy="input-library.description"
+          disabled={false}
+          id="description"
+          isInvalid={false}
+          name="library.description"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Horário de abertura
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Horário de fechamento
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Dias de funcionamento
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormOperationDays__StyledOperationDays-sc-5q5u30-0 isznqO"
+        >
+          <div
+            className="DayItem__StyledDayItem-sc-11v4b6y-0 jevZfp"
+            onClick={[Function]}
+          >
+            S
+          </div>
+          <div
+            className="DayItem__StyledDayItem-sc-11v4b6y-0 jevZfp"
+            onClick={[Function]}
+          >
+            T
+          </div>
+          <div
+            className="DayItem__StyledDayItem-sc-11v4b6y-0 jevZfp"
+            onClick={[Function]}
+          >
+            Q
+          </div>
+          <div
+            className="DayItem__StyledDayItem-sc-11v4b6y-0 jevZfp"
+            onClick={[Function]}
+          >
+            Q
+          </div>
+          <div
+            className="DayItem__StyledDayItem-sc-11v4b6y-0 jevZfp"
+            onClick={[Function]}
+          >
+            S
+          </div>
+          <div
+            className="DayItem__StyledDayItem-sc-11v4b6y-0 jevZfp"
+            onClick={[Function]}
+          >
+            S
+          </div>
+          <div
+            className="DayItem__StyledDayItem-sc-11v4b6y-0 jevZfp"
+            onClick={[Function]}
+          >
+            D
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Endereço
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.address"
+          disabled={false}
+          id="address"
+          maxLength={255}
+          name="library.address"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Telefone do restaurante
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.phoneNumber"
+          disabled={false}
+          id="phoneNumber"
+          maxLength={30}
+          name="library.phoneNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Site
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.site"
+          disabled={false}
+          id="site"
+          maxLength={255}
+          name="library.site"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Facebook
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.facebookLink"
+          disabled={false}
+          id="facebookLink"
+          maxLength={255}
+          name="library.facebookLink"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Instagram
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.instagramLink"
+          disabled={false}
+          id="instagramLink"
+          maxLength={255}
+          name="library.instagramLink"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Tipo de culinária
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <select
+          className="FormSelect__StyledFormSelect-sc-1iyz1uk-0 CPsvA"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            value="Argentina"
+          >
+            Argentina
+          </option>
+          <option
+            value="Asiatica"
+          >
+            Asiatica
+          </option>
+          <option
+            value="Creole"
+          >
+            Creole
+          </option>
+          <option
+            value="Indiana"
+          >
+            Indiana
+          </option>
+          <option
+            value="Libanesa"
+          >
+            Libanesa
+          </option>
+          <option
+            value="Otomana"
+          >
+            Otomana
+          </option>
+          <option
+            value="Tailandesa"
+          >
+            Tailandesa
+          </option>
+          <option
+            value="Vegetariana"
+          >
+            Vegetariana
+          </option>
+          <option
+            value="Fusao"
+          >
+            Fusao
+          </option>
+          <option
+            value="Alema"
+          >
+            Alema
+          </option>
+          <option
+            value="Brasileira"
+          >
+            Brasileira
+          </option>
+          <option
+            value="Espanhola"
+          >
+            Espanhola
+          </option>
+          <option
+            value="Inglesa"
+          >
+            Inglesa
+          </option>
+          <option
+            value="Marroquina"
+          >
+            Marroquina
+          </option>
+          <option
+            value="Peruana"
+          >
+            Peruana
+          </option>
+          <option
+            value="Vietnamita"
+          >
+            Vietnamita
+          </option>
+          <option
+            value="Internacional"
+          >
+            Internacional
+          </option>
+          <option
+            value="Americana"
+          >
+            Americana
+          </option>
+          <option
+            value="Chinesa"
+          >
+            Chinesa
+          </option>
+          <option
+            value="Francesa"
+          >
+            Francesa
+          </option>
+          <option
+            value="Italiana"
+          >
+            Italiana
+          </option>
+          <option
+            value="Mediterranea"
+          >
+            Mediterranea
+          </option>
+          <option
+            value="Pizzaria"
+          >
+            Pizzaria
+          </option>
+          <option
+            value="FrutosDoMar"
+          >
+            FrutosDoMar
+          </option>
+          <option
+            value="TipicaLocal"
+          >
+            TipicaLocal
+          </option>
+          <option
+            value="Arabe"
+          >
+            Arabe
+          </option>
+          <option
+            value="Coreana"
+          >
+            Coreana
+          </option>
+          <option
+            value="Grega"
+          >
+            Grega
+          </option>
+          <option
+            value="Japonesa"
+          >
+            Japonesa
+          </option>
+          <option
+            value="Mexicana"
+          >
+            Mexicana
+          </option>
+          <option
+            value="Portuguesa"
+          >
+            Portuguesa
+          </option>
+          <option
+            value="Contemporanea"
+          >
+            Contemporanea
+          </option>
+        </select>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Estrelas Michelin
+          
+        </label>
+        <div
+          className="MichelinRating__StyledMichelinRating-sc-22cn4b-0 hEqXmo"
+        >
+          <span
+            className="icon icon-michelin-star Icon__StyledIcon-crr1cg-0 dWdmGW"
+            disabled={true}
+            fontSize="1.75rem"
+            onClick={[Function]}
+          />
+          <span
+            className="icon icon-michelin-star Icon__StyledIcon-crr1cg-0 dWdmGW"
+            disabled={true}
+            fontSize="1.75rem"
+            onClick={[Function]}
+          />
+          <span
+            className="icon icon-michelin-star Icon__StyledIcon-crr1cg-0 dWdmGW"
+            disabled={true}
+            fontSize="1.75rem"
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Prêmios
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.prizes"
+          disabled={false}
+          id="prizes"
+          maxLength={255}
+          name="library.prizes"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Dress Code
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.dressCode"
+          disabled={false}
+          id="dressCode"
+          maxLength={120}
+          name="library.dressCode"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Aceita reserva
+          
+        </label>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.acceptsReservation-yes"
+            name="library.acceptsReservation-yes"
+            onChange={[Function]}
+            type="radio"
+            value="yes"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Sim
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.acceptsReservation-no"
+            name="library.acceptsReservation-no"
+            onChange={[Function]}
+            type="radio"
+            value="no"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Não
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Reserva obrigatória
+          
+        </label>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.requiredReservation-yes"
+            name="library.requiredReservation-yes"
+            onChange={[Function]}
+            type="radio"
+            value="yes"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Sim
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.requiredReservation-no"
+            name="library.requiredReservation-no"
+            onChange={[Function]}
+            type="radio"
+            value="no"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Não
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Apropriado para crianças
+          
+        </label>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.suitableForChildren-yes"
+            name="library.suitableForChildren-yes"
+            onChange={[Function]}
+            type="radio"
+            value="yes"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Sim
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.suitableForChildren-no"
+            name="library.suitableForChildren-no"
+            onChange={[Function]}
+            type="radio"
+            value="no"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Não
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Data da reserva
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormDate__StyledFormDate-sc-1cgz0rk-0 ebKpCI"
+        >
+          <div
+            className="SingleDatePicker SingleDatePicker_1"
+          >
+            <div>
+              <div
+                className="SingleDatePickerInput SingleDatePickerInput_1"
+              >
+                <div
+                  className="DateInput DateInput_1"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-"
+                    aria-label="Selecione uma data..."
+                    autoComplete="off"
+                    className="DateInput_input DateInput_input_1 DateInput_input__readOnly DateInput_input__readOnly_2"
+                    disabled={false}
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="Selecione uma data..."
+                    readOnly={true}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                  <p
+                    className="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                    id="DateInput__screen-reader-message-"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                </div>
+                <button
+                  className="SingleDatePickerInput_calendarIcon SingleDatePickerInput_calendarIcon_1"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon icon-calendar Icon__StyledIcon-crr1cg-0 cmjVJQ"
+                    disabled={false}
+                    fontSize="1.75rem"
+                    onClick={null}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Horário da reserva
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Quantidade de pessoas
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-peopleCount"
+          disabled={false}
+          id="peopleCount"
+          maxLength={255}
+          min={1}
+          name="peopleCount"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="number"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Código da reserva
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-reserveNumber"
+          disabled={false}
+          id="reserveNumber"
+          maxLength={255}
+          name="reserveNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Nome do cliente na reserva
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-reserveClientName"
+          disabled={false}
+          id="reserveClientName"
+          maxLength={120}
+          name="reserveClientName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Selecionar clientes
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Reserva confirmada por
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-confirmedBy"
+          disabled={false}
+          id="confirmedBy"
+          maxLength={120}
+          name="confirmedBy"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </form>,
+  <div
+    className="FormButtonContainer-sc-1cqqivn-0 ADyLt"
+  >
+    <button
+      className="Button__StyledButton-sc-1fc3klx-0 bEGBgE"
+      disabled={false}
+      fill={false}
+      onClick={[Function]}
+    >
+      Salvar serviço
+    </button>
+    <a
+      className="Cancel__StyledCancel-sc-1prgtit-0 WzuoR"
+      to="/travel/5c702543793e3b6d3d2f7aa6/script"
+    >
+      Cancelar
+    </a>
+  </div>,
+]
+`;

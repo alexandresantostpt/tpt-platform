@@ -1,0 +1,37 @@
+---
+menu: Form
+name: FormBuilder
+route: /form/builder
+---
+import { Playground, PropsTable } from 'docz'
+
+import 'react-datepicker/dist/react-datepicker.css'
+
+import FormBuilder from './FormBuilder'
+
+import '@cfg/scripts'
+import '@cfg/style'
+import '@css/override.css'
+
+# FormDate
+<PropsTable of={ FormBuilder }/>
+
+## Basic usage
+
+```
+<FormBuilder
+    form={{}}
+/>
+```
+
+<Playground>
+    <FormBuilder
+        fields = { [
+                { component: 'input', id: 'clientName', name: 'clientName', required: false, type: 'text' },
+                { component: 'input', id: 'clientCpf', name: 'clientCpf', required: true, type: 'text' },
+                { component: 'input', id: 'data', name: 'data', required: true, type: 'date' },
+                { component: 'input', id: 'hora', name: 'clientCpf', required: true, type: 'time' }
+            ] }
+        form={{}}
+    />
+</Playground>

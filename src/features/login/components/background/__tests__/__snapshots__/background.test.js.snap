@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Background component Should rendering without crash 1`] = `
+<div
+  className="Background__StyledBg-sc-904t04-0 bTqgFQ"
+/>
+`;

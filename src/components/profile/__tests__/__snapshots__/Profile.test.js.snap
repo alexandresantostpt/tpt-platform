@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Profile component Should render without crash 1`] = `
+<div
+  className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Johnny Silva"
+    className="DropdownPicture__StyledDropdownPicture-ylb9qy-0 iHpJFt"
+    src="https://api.adorable.io/avatars/100/tpt-platform"
+  />
+  <ul
+    className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+  >
+    <li
+      className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+      onClick={null}
+    >
+      <span
+        className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+      >
+        Meu perfil
+      </span>
+    </li>
+    <li
+      className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+      onClick={null}
+    >
+      <span
+        className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+      >
+        
+      </span>
+      <span
+        className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+      >
+        
+      </span>
+    </li>
+    <li
+      className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+      onClick={null}
+    >
+      <span
+        className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+      >
+        Registro de atividades
+      </span>
+      <span
+        className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+      >
+        Atualizado às 8:45
+      </span>
+    </li>
+  </ul>
+</div>
+`;

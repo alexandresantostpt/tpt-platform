@@ -1,0 +1,27 @@
+---
+menu: Dropdown
+name: DropdownPicture
+route: /dropdown/picture
+---
+import { Playground, PropsTable } from 'docz'
+
+import DropdownPicture from './DropdownPicture'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# DropdownPicture
+<PropsTable of={ DropdownPicture }/>
+
+## Basic usage
+
+```
+<DropdownPicture image={ IMAGE_URL } imageAlt={ IMAGE_ALT }/>
+```
+
+<Playground>
+    <DropdownPicture
+        image="https://api.adorable.io/avatars/100/tpt-platform"
+        imageAlt="Johnny Silva"
+    />
+</Playground>

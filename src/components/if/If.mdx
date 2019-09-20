@@ -1,0 +1,28 @@
+---
+name: If
+route: /if
+---
+import { Playground, PropsTable } from 'docz'
+
+import If from './If'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# If
+
+<PropsTable of={ If }/>
+
+## Basic usage
+
+```
+<If condition={ BOOLEAN_VALUE } el={ <h2>Another JSX</h2> }>
+    <h1>Must be show</h1>
+</If>
+```
+
+<Playground>
+    <If condition={ true } el={ <h2>Another JSX</h2> }>
+        <h1>Must be show</h1>
+    </If>
+</Playground>

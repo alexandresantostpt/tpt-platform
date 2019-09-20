@@ -1,0 +1,35 @@
+---
+menu: Form
+name: FormTime
+route: /form/time
+---
+import { Playground, PropsTable } from 'docz'
+
+import 'react-datepicker/dist/react-datepicker.css'
+
+import FormTime from './FormTime'
+
+import '@cfg/scripts'
+import '@cfg/style'
+import '@css/override.css'
+
+# FormDate
+<PropsTable of={ FormTime }/>
+
+## Basic usage
+
+```
+<FormTime
+    form={{}}
+    name="clientName"
+    initialValue=''
+/>
+```
+
+<Playground>
+    <FormTime
+        form={{}}
+        name="clientName"
+        initialValue=''
+    />
+</Playground>

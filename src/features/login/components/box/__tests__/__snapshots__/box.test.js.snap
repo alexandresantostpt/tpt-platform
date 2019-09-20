@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Box component Should rendering without crash 1`] = `
+<div
+  className="Box__StyledBox-v5mj6b-0 llPnpv"
+>
+  <h1>
+    Must be show!
+  </h1>
+</div>
+`;

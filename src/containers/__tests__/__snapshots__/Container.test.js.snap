@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Container container Should rendering without crash  1`] = `
+<main
+  className="Container__StyledContainer-sc-1i8buc6-0 SsRsD"
+>
+  <h1>
+    Must be show
+  </h1>
+</main>
+`;

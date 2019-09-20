@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Travel component Should render withou crash 1`] = `
+<div
+  className="Tasks__StyledTasks-sc-1hy8ads-0 cjVtaH"
+>
+  <h2
+    className="Title__StyledTitle-sc-11bxhsf-0 frSblw"
+  >
+    Tarefas
+  </h2>
+  <button
+    className="AddButton__StyledAddButon-ppf0uf-0 bLjgkJ"
+    onClick={[Function]}
+  >
+    <span
+      className="icon icon-plus Icon__StyledIcon-crr1cg-0 eXMubC"
+      disabled={false}
+      fontSize="0.8rem"
+      onClick={null}
+    />
+    Adicionar Tarefa
+  </button>
+  <div
+    className="Task__StyledTask-sc-1fi2258-0 cEDnPQ"
+  >
+    <span
+      className="TaskCheck__StyledTaskCheck-sc-1tgftv-0 htWEWq"
+      onClick={[Function]}
+    >
+      <button
+        className="TaskCheck__StyledButton-sc-1tgftv-1 elQAyk"
+      />
+      <span
+        className="icon icon-check Icon__StyledIcon-crr1cg-0 cmjVJQ"
+        disabled={false}
+        fontSize="1.75rem"
+        onClick={null}
+      />
+    </span>
+    <div
+      className="TaskBody__StyledBody-sc-1p8y2k3-0 cOetdt"
+    >
+      <textarea
+        autoComplete="off"
+        className="TaskEdit__StyledTaskEdit-f5yune-0 dWmTjV"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        value="teste 123"
+      />
+    </div>
+    <span
+      className="TaskActions__StyledTaskActions-sc-92wkgs-0 oqREy"
+    >
+      <span
+        className="icon icon-times Icon__StyledIcon-crr1cg-0 dqcjNO"
+        disabled={false}
+        fontSize="1.5rem"
+        onClick={[Function]}
+      />
+    </span>
+  </div>
+  <div
+    className="CollapseDivider__StyledCollapseDivider-sc-1otxrtt-0 dEjhoP"
+  >
+    <div
+      className="CollapseDivider__StyledHeader-sc-1otxrtt-1 hTeopB"
+    >
+      Concluídas (1)
+      <span
+        className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 cMlgiC"
+        disabled={false}
+        fontSize="1.75rem"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="CollapseItems__StyledCollapseItems-tyowld-0 kEpAYd"
+    >
+      <div
+        className="Task__StyledTask-sc-1fi2258-0 cEDnPQ"
+      >
+        <span
+          className="TaskCheck__StyledTaskCheck-sc-1tgftv-0 bcxwQS"
+          onClick={[Function]}
+        >
+          <button
+            className="TaskCheck__StyledButton-sc-1tgftv-1 elQAyk"
+          />
+          <span
+            className="icon icon-check Icon__StyledIcon-crr1cg-0 cmjVJQ"
+            disabled={false}
+            fontSize="1.75rem"
+            onClick={null}
+          />
+        </span>
+        <div
+          className="TaskBody__StyledBody-sc-1p8y2k3-0 cOetdt"
+        >
+          <textarea
+            autoComplete="off"
+            className="TaskEdit__StyledTaskEdit-f5yune-0 ihYtDu"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            value="teste 1234"
+          />
+        </div>
+        <span
+          className="TaskActions__StyledTaskActions-sc-92wkgs-0 oqREy"
+        >
+          <span
+            className="icon icon-times Icon__StyledIcon-crr1cg-0 dqcjNO"
+            disabled={false}
+            fontSize="1.5rem"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

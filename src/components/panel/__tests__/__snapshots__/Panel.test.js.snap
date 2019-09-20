@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Panel component Should rendering without crash 1`] = `
+Array [
+  <div
+    className="Panel__StyledPanel-sc-1qzkpb6-0 cGUlCn"
+  >
+    <textarea
+      className="Panel__Title-sc-1qzkpb6-1 bkCqmz"
+      disabled={false}
+      maxLength={120}
+      onChange={[Function]}
+      value=""
+    />
+  </div>,
+  <ul
+    className="PanelActions__StyledActions-sc-8xk8c8-0 lllkGw"
+  />,
+]
+`;

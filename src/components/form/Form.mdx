@@ -1,0 +1,38 @@
+---
+menu: Form
+name: Form
+route: /components/form
+---
+import { Playground, PropsTable } from 'docz'
+
+import Form from './Form'
+import FormContainer from './container/FormContainer'
+import FormField from './field/FormField'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# Form
+
+<PropsTable of={ Form }/>
+
+## Basic usage
+
+```
+<Form/>
+```
+
+<Playground>
+    <Form
+        fields={ {
+            clientName: { component: 'input', id: 'clientName', name: 'clientName', required: false, type: 'text' },
+            clientCpf: { component: 'input', id: 'clientCpf', name: 'clientCpf', required: true, type: 'text' }
+        } }
+        onSubmit={ values => console.log(values) }
+    >
+        <FormContainer>
+            <FormField { ...{ component: 'input', id: 'clientName', name: 'clientName', required: false, type: 'text' } } />
+            <FormField { ...{ component: 'input', id: 'clientCpf', name: 'clientCpf', required: true, type: 'text' } } />
+        </FormContainer>
+    </Form>
+</Playground>

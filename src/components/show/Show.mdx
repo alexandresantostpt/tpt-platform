@@ -1,0 +1,28 @@
+---
+name: Show
+route: /show
+---
+import { Playground, PropsTable } from 'docz'
+
+import Show from './Show'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# Show
+
+<PropsTable of={ Show }/>
+
+## Basic usage
+
+```
+<Show only={ BOOLEAN_VALUE }>
+    <h1>Must be show</h1>
+</Show>
+```
+
+<Playground>
+    <Show only={ true }>
+        <h1>Must be show</h1>
+    </Show>
+</Playground>

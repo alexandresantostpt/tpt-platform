@@ -1,0 +1,35 @@
+---
+menu: Panel
+name: Panel
+route: /panel
+---
+import { Playground, PropsTable } from 'docz'
+
+import Panel from './Panel'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# Panel
+
+<PropsTable of={ Panel }/>
+
+## Basic Usage
+
+```
+<Panel/>
+```
+
+<Playground>
+    <Panel/>
+</Playground>
+
+### BackgroundImageUrl
+
+```
+<Panel backgroundImageUrl={ IMAGE_URL_STRING_VALUE }/>
+```
+
+<Playground>
+    <Panel backgroundImageUrl={ 'https://api.adorable.io/avatars/285/abott@adorable.png' }/>
+</Playground>

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Table component Should rendering without crash  1`] = `
+<table
+  className="Table__StyledTable-y4is3j-0 fabprq"
+>
+  <thead>
+    <tr
+      className="TableHeaderRow__StyledTableHeaderRow-bvb8hb-0 Nmgc"
+    >
+      <th
+        className="TableHeaderColumn__StyledTableHeaderColumn-stotn-0 NeDht"
+        onClick={[Function]}
+      >
+        labels.columnA
+         
+        <span
+          className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 cmjVJQ"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+      </th>
+      <th
+        className="TableHeaderColumn__StyledTableHeaderColumn-stotn-0 NeDht"
+        onClick={[Function]}
+      >
+        labels.columnB
+         
+        <span
+          className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 cmjVJQ"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+      </th>
+      <th
+        className="TableHeaderColumn__StyledTableHeaderColumn-stotn-0 NeDht"
+        onClick={[Function]}
+      >
+        labels.columnC
+         
+        <span
+          className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 cmjVJQ"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for ConfirmationModal component Should render without crash 1`] = `
+<div
+  className="ConfirmationModal__ModalContainer-sc-1rdkds7-6 hwtbW"
+>
+  <div
+    className="ConfirmationModal__Content-sc-1rdkds7-4 eBCQjc"
+  >
+    <button
+      className="ConfirmationModal__CloseButton-sc-1rdkds7-3 dwEcRc"
+    >
+      <span
+        className="icon icon-times Icon__StyledIcon-crr1cg-0 dqcjNO"
+        disabled={false}
+        fontSize="1.5rem"
+        onClick={[Function]}
+      />
+    </button>
+    <div
+      className="ConfirmationModal__CenterIcon-sc-1rdkds7-2 ggEkby"
+    >
+      <div
+        className="ConfirmationModal__IconLayout-sc-1rdkds7-5 hUsVys"
+      >
+        <span
+          className="icon icon-undefined Icon__StyledIcon-crr1cg-0 htHnBz"
+          disabled={false}
+          fontSize="1.2rem"
+          onClick={null}
+        />
+      </div>
+    </div>
+    <div
+      className="ConfirmationModal__ButtonContainer-sc-1rdkds7-1 gmmNDJ"
+    >
+      <button
+        className="ConfirmationModal__Button-sc-1rdkds7-0 mupnl"
+        onClick={[Function]}
+      >
+        Sim
+      </button>
+      <button
+        className="ConfirmationModal__Button-sc-1rdkds7-0 mupnl"
+        onClick={[Function]}
+      >
+         
+        Não
+      </button>
+    </div>
+  </div>
+</div>
+`;

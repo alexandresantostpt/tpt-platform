@@ -1,0 +1,55 @@
+---
+menu: Dropdown
+name: Dropdown
+route: /dropdown
+---
+import { Playground, PropsTable } from 'docz'
+
+import { i18n } from '@i18n'
+
+import Dropdown from './Dropdown'
+import DropdownItem from './item/DropdownItem'
+import DropdownLabel from './label/DropdownLabel'
+import DropdownTitle from './title/DropdownTitle'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# Dropdown
+<PropsTable of={ Dropdown }/>
+
+## Basic usage
+
+```
+<Dropdown image="IMAGE_URL" imageAlt="IMAGE_ALT">
+    <DropdownItem>
+        <DropdownTitle>{ i18n.t('titles.myProfile') }</DropdownTitle>
+    </DropdownItem>
+    <DropdownItem bigger>
+        <DropdownLabel dark>Johnny Silva</DropdownLabel>
+        <DropdownLabel>johnny.silva@teresaperez.com.br</DropdownLabel>
+    </DropdownItem>
+</Dropdown>
+```
+
+<Playground>
+    <Dropdown image="https://api.adorable.io/avatars/100/tpt-platform" imageAlt="Johnny Silva">
+        <DropdownItem>
+            <DropdownTitle>{ i18n.t('titles.myProfile') }</DropdownTitle>
+        </DropdownItem>
+        <DropdownItem bigger>
+            <DropdownLabel dark>Johnny Silva</DropdownLabel>
+            <DropdownLabel>johnny.silva@teresaperez.com.br</DropdownLabel>
+        </DropdownItem>
+        <DropdownItem bigger>
+            <DropdownLabel dark>{ i18n.t('labels.activitiesRegistry') }</DropdownLabel>
+            <DropdownLabel>Atualizado às 8:45</DropdownLabel>
+        </DropdownItem>
+    </Dropdown>
+</Playground>
+
+### Using icon
+It's possible use icon instead image
+
+<Playground>
+</Playground>

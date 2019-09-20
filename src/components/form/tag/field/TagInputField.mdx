@@ -1,0 +1,46 @@
+---
+menu: FormTag
+name: TagInputField
+route: /components/form/FormTag/field
+---
+
+import { Playground, PropsTable } from 'docz'
+
+import TagInputField from './TagInputField'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# TagInputField
+
+<PropsTable of={TagInputField} />
+
+## Basic usage
+
+```
+<TagInputField
+    form={ {} }
+    id="MY_ID"
+    name="MY_NAME"
+    onBlur={ () => console.log('Blur...') }
+    onChange={ () => console.log('Change...') }
+    onFocus={ () => console.log('Focus...') }
+    onKeyDown={ () => console.log('Key down...') }
+    type="MY_TYPE"
+    value=""
+/>
+```
+
+<Playground>
+    <TagInputField
+        form={{}}
+        id="MY_ID"
+        name="MY_NAME"
+        onBlur={() => console.log('Blur...')}
+        onChange={() => console.log('Change...')}
+        onFocus={() => console.log('Focus...')}
+        onKeyDown={() => console.log('Key down...')}
+        type="MY_TYPE"
+        value=""
+    />
+</Playground>

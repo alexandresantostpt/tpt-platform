@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Menu component Should rendering without crash  1`] = `
+<nav
+  className="Menu__StyledMenu-w0f985-0 kGkgdR"
+>
+  <ul
+    className="MenuList__StyledMenuList-sc-1bxu43p-0 ixFBrS"
+  >
+    <li
+      className="MenuItem__StyledMenuItem-zqooc6-0 iARPpZ"
+    >
+      <span
+        className="icon icon-plane Icon__StyledIcon-crr1cg-0 eUaEJk"
+        disabled={false}
+        fontSize="2.5rem"
+        onClick={null}
+      />
+      <a
+        className="MenuLink__StyledMenuLink-sc-14ijefa-0 fFEQpa"
+        to="/"
+      >
+        Viagens
+      </a>
+    </li>
+    <li
+      className="MenuItem__StyledMenuItem-zqooc6-0 iARPpZ"
+    >
+      <span
+        className="icon icon-clients Icon__StyledIcon-crr1cg-0 dGOERJ"
+        disabled={false}
+        fontSize="2rem"
+        onClick={null}
+      />
+      <a
+        className="MenuLink__StyledMenuLink-sc-14ijefa-0 fFEQpa"
+        to="/client"
+      >
+        Clientes
+      </a>
+    </li>
+    <li
+      className="MenuItem__StyledMenuItem-zqooc6-0 iARPpZ"
+    >
+      <span
+        className="icon icon-bookmark Icon__StyledIcon-crr1cg-0 iGtZzu"
+        disabled={false}
+        fontSize="2.3rem"
+        onClick={null}
+      />
+      <a
+        className="MenuLink__StyledMenuLink-sc-14ijefa-0 fFEQpa"
+        to="/library"
+      >
+        Biblioteca
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

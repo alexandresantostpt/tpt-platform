@@ -1,0 +1,31 @@
+---
+menu: Form
+name: FormField
+route: /components/form/field
+---
+import { Playground, PropsTable } from 'docz'
+
+import FormField from './FormField'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# FormField
+
+<PropsTable of={ FormField }/>
+
+## Basic usage
+
+```
+
+```
+
+<Playground>
+    <FormField
+        component="input"
+        id="clientName"
+        name="clientName"
+        required={ true }
+        type="text"
+    />
+</Playground>

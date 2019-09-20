@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for TipForm component Should render withou crash 1`] = `
+Array [
+  <div
+    className="WrapperPadding-ovjbyx-0 lcnoja"
+  >
+    <div
+      className="Panel__StyledPanel-sc-1qzkpb6-0 cGUlCn"
+    >
+      <span
+        className="Panel__StyledIcon-sc-1qzkpb6-2 iavvSk"
+      >
+        <span
+          className="icon icon-heart Icon__StyledIcon-crr1cg-0 dfhcZR"
+          disabled={false}
+          fontSize="3rem"
+          onClick={null}
+        />
+      </span>
+      <div
+        className="UploadButton__StyledContainer-sc-1p8zoc-0 fpZFIG"
+      >
+        <label
+          className="UploadButton__StyledUploadButton-sc-1p8zoc-3 ivhrYW"
+          htmlFor="inputFile"
+        >
+          +
+        </label>
+        <input
+          accept="image/png, image/jpeg"
+          className="UploadButton__InputFile-sc-1p8zoc-4 eLaooA"
+          id="inputFile"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Select__StyledSelect-sc-1jg94wo-0 hwuoao"
+    onClick={[Function]}
+  >
+    <div
+      className="SelectContainer__StyledSelectContainer-b4xrfw-0 dbBaBH"
+    >
+      <span
+        className="SelectText-sc-9v8jof-0 kzQEMd"
+        onClick={[Function]}
+      >
+        Selecione uma categoria...
+        <span
+          className="icon icon-arrow-down Icon__StyledIcon-crr1cg-0 cmjVJQ"
+          disabled={false}
+          fontSize="1.75rem"
+          onClick={null}
+        />
+      </span>
+    </div>
+    <ul
+      className="SelectList__StyledSelectList-sc-13lmtnk-0 kdpUHJ"
+    >
+      <span>
+        <li
+          className="GroupItem__StyledGroupItem-sc-1p2pi5i-0 gXBQCx"
+        >
+          Eventos
+        </li>
+      </span>
+      <span>
+        <li
+          className="GroupItem__StyledGroupItem-sc-1p2pi5i-0 gXBQCx"
+        >
+          Gastronomia
+        </li>
+      </span>
+      <span>
+        <li
+          className="GroupItem__StyledGroupItem-sc-1p2pi5i-0 gXBQCx"
+        >
+          Vida noturna
+        </li>
+      </span>
+      <span>
+        <li
+          className="GroupItem__StyledGroupItem-sc-1p2pi5i-0 gXBQCx"
+        >
+          Compras
+        </li>
+      </span>
+      <span>
+        <li
+          className="GroupItem__StyledGroupItem-sc-1p2pi5i-0 gXBQCx"
+        >
+          Passeio
+        </li>
+      </span>
+    </ul>
+  </div>,
+]
+`;

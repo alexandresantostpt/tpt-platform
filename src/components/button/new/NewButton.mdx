@@ -1,0 +1,25 @@
+---
+menu: Button
+name: NewButton
+route: /button/new
+---
+import { Playground, PropsTable } from 'docz'
+
+import NewButton from './NewButton'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# NewButton
+
+<PropsTable of={ NewButton }/>
+
+## Basic Usage
+
+```
+<NewButton transparent={ BOOLEAN_VALUE }/>
+```
+
+<Playground>
+    <NewButton transparent={ false }/>
+</Playground>

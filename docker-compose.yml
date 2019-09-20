@@ -1,0 +1,26 @@
+version: '3.6'
+services:
+    tpt_platform:
+        container_name: tpt_platform
+        deploy:
+            mode: replicated
+            replicas: 1
+            restart_policy:
+                condition: on-failure
+                delay: 5s
+                max_attempts: 3
+                window: 60s
+            resources:
+                limits:
+                    memory: 128M
+        image: tpt-platform
+        networks:
+            main:
+                aliases:
+                    - tpt_platform
+        ports:
+            - 80:80
+        restart: "no"
+
+networks:
+    main:

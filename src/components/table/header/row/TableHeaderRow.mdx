@@ -1,0 +1,25 @@
+---
+menu: Table
+name: TableHeaderRow
+route: /table/header/row
+---
+import { Playground, PropsTable } from 'docz'
+
+import TableHeaderRow from './TableHeaderRow'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# TableHeaderRow
+
+<PropsTable of={ TableHeaderRow }/>
+
+## Basic Usage
+
+```
+<TableHeaderRow columns={ ARRAY_OF_COLUMNS_NAMES }/>
+```
+
+<Playground>
+    <TableHeaderRow columns={ [ 'status', 'clientName', 'destiny', 'date' ] }/>
+</Playground>

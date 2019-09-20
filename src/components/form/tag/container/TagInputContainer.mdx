@@ -1,0 +1,54 @@
+---
+menu: FormTag
+name: TagInputContainer
+route: /components/form/FormTag/container
+---
+
+import { Playground, PropsTable } from 'docz'
+
+import Icon from '@components/icon/Icon'
+import TagInputContainer from './TagInputContainer'
+import TagInputField from '../field/TagInputField'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# TagInputContainer
+
+<PropsTable of={TagInputContainer} />
+
+## Basic usage
+
+```
+<TagInputContainer>
+    <TagInputField
+        form={ {} }
+        id="MY_ID"
+        name="MY_NAME"
+        onBlur={ () => console.log('Blur...') }
+        onChange={ () => console.log('Change...') }
+        onFocus={ () => console.log('Focus...') }
+        onKeyDown={ () => console.log('Key down...') }
+        type="MY_TYPE"
+        value=""
+    />
+    <Icon icon="plus" onClick={ () => console.log('Click...') }/>
+</TagInputContainer>
+```
+
+<Playground>
+    <TagInputContainer>
+        <TagInputField
+            form={{}}
+            id="MY_ID"
+            name="MY_NAME"
+            onBlur={() => console.log('Blur...')}
+            onChange={() => console.log('Change...')}
+            onFocus={() => console.log('Focus...')}
+            onKeyDown={() => console.log('Key down...')}
+            type="MY_TYPE"
+            value=""
+        />
+        <Icon icon="plus" onClick={() => console.log('Click...')} />
+    </TagInputContainer>
+</Playground>

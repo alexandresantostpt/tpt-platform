@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for PageLoading component Should rendering without crash  1`] = `
+<div
+  className="spinner PageLoading__StyledSpinner-wjb6ia-0 kXspCY"
+>
+  <span
+    className="spiiner__ball js-spinnerBall PageLoading__StyledSpinnerBall-wjb6ia-1 lpcRdC"
+  />
+  <span
+    className="spiiner__ball js-spinnerBall PageLoading__StyledSpinnerBall-wjb6ia-1 lpcRdC"
+  />
+  <span
+    className="spiiner__ball js-spinnerBall PageLoading__StyledSpinnerBall-wjb6ia-1 lpcRdC"
+  />
+  <span
+    className="spiiner__ball js-spinnerBall PageLoading__StyledSpinnerBall-wjb6ia-1 lpcRdC"
+  />
+  <span
+    className="spiiner__ball js-spinnerBall PageLoading__StyledSpinnerBall-wjb6ia-1 lpcRdC"
+  />
+</div>
+`;

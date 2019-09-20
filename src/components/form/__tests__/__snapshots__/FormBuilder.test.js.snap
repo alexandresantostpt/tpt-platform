@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Form component Should render without crash 1`] = `
+<form
+  className="FormBuilder__StyledForm-c1htou-0 PZxQa"
+  onSubmit={[Function]}
+>
+  <div
+    className="form__container"
+  >
+    <div
+      className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+    >
+      <input
+        className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+        data-cy="input-id"
+        disabled={false}
+        id="id"
+        maxLength={255}
+        name="id"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder=""
+        readOnly={false}
+        required={false}
+        type="hidden"
+        value=""
+      />
+    </div>
+    <div
+      className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+    >
+      <input
+        className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+        data-cy="input-myField"
+        disabled={false}
+        id="myField"
+        maxLength={255}
+        name="myField"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder=""
+        readOnly={false}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+    >
+      <input
+        className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+        data-cy="input-myFieldNotRequired"
+        disabled={false}
+        id="myFieldNotRequired"
+        maxLength={255}
+        name="myFieldNotRequired"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder=""
+        readOnly={false}
+        required={false}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+    >
+      <input
+        className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+        data-cy="input-myNumberField"
+        disabled={false}
+        id="myNumberField"
+        maxLength={255}
+        name="myNumberField"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder=""
+        readOnly={false}
+        required={false}
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+    >
+      <div
+        className="FormDate__StyledFormDate-sc-1cgz0rk-0 ebKpCI"
+      >
+        <div
+          className="SingleDatePicker SingleDatePicker_1"
+        >
+          <div>
+            <div
+              className="SingleDatePickerInput SingleDatePickerInput_1"
+            >
+              <div
+                className="DateInput DateInput_1"
+              >
+                <input
+                  aria-describedby="DateInput__screen-reader-message-"
+                  aria-label="Selecione uma data..."
+                  autoComplete="off"
+                  className="DateInput_input DateInput_input_1 DateInput_input__readOnly DateInput_input__readOnly_2"
+                  disabled={false}
+                  id=""
+                  name=""
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="Selecione uma data..."
+                  readOnly={true}
+                  required={false}
+                  type="text"
+                  value=""
+                />
+                <p
+                  className="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                  id="DateInput__screen-reader-message-"
+                >
+                  Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                </p>
+              </div>
+              <button
+                className="SingleDatePickerInput_calendarIcon SingleDatePickerInput_calendarIcon_1"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <span
+                  className="icon icon-calendar Icon__StyledIcon-crr1cg-0 cmjVJQ"
+                  disabled={false}
+                  fontSize="1.75rem"
+                  onClick={null}
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+    >
+      <div
+        className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+      >
+        <input
+          className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+          disabled={false}
+          onChange={[Function]}
+          options={
+            Object {
+              "blocks": Array [
+                2,
+                2,
+              ],
+              "delimiters": Array [
+                ":",
+              ],
+            }
+          }
+          placeholderText="Selecione um horário..."
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</form>
+`;

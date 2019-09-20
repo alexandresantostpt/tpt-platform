@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for AgencyRegistration component Should render withou crash 1`] = `
+<App
+  travelScript={null}
+>
+  <Container>
+    <ForwardRef>
+      <Avatar
+        alt={null}
+        image="persona1.png"
+        onClick={null}
+        size={10}
+      />
+      <ForwardRef>
+        Olá, !
+      </ForwardRef>
+    </ForwardRef>
+    <ForwardRef>
+      <ForwardRef>
+        Para continuar, preencha os campos abaixo:
+      </ForwardRef>
+      <ForwardRef
+        disabled={false}
+        fieldChildren={null}
+        fields={
+          Array [
+            Object {
+              "component": "input",
+              "id": "socialName",
+              "label": "socialName",
+              "maxLength": 120,
+              "name": "socialName",
+              "required": true,
+              "type": "text",
+            },
+            Object {
+              "component": "input",
+              "id": "businessName",
+              "label": "businessName",
+              "maxLength": 120,
+              "name": "businessName",
+              "required": true,
+              "type": "text",
+            },
+            Object {
+              "component": "input",
+              "id": "cnpj",
+              "label": "cnpj",
+              "mask": Object {
+                "blocks": Array [
+                  2,
+                  3,
+                  3,
+                  4,
+                  2,
+                ],
+                "delimiters": Array [
+                  ".",
+                  ".",
+                  "/",
+                  "-",
+                ],
+              },
+              "maxLength": 18,
+              "name": "cnpj",
+              "required": true,
+              "type": "mask",
+              "validation": "cnpj",
+            },
+            Object {
+              "component": "input",
+              "id": "phoneEmergency",
+              "label": "phoneEmergency",
+              "maxLength": 30,
+              "name": "phoneEmergency",
+              "required": true,
+              "type": "text",
+            },
+            Object {
+              "component": "input",
+              "id": "phoneContact",
+              "label": "phoneContact",
+              "maxLength": 30,
+              "name": "phoneContact",
+              "required": true,
+              "type": "text",
+            },
+          ]
+        }
+        fieldsToValidate={
+          Array [
+            Object {
+              "component": "input",
+              "id": "socialName",
+              "label": "socialName",
+              "maxLength": 120,
+              "name": "socialName",
+              "required": true,
+              "type": "text",
+            },
+            Object {
+              "component": "input",
+              "id": "businessName",
+              "label": "businessName",
+              "maxLength": 120,
+              "name": "businessName",
+              "required": true,
+              "type": "text",
+            },
+            Object {
+              "component": "input",
+              "id": "cnpj",
+              "label": "cnpj",
+              "mask": Object {
+                "blocks": Array [
+                  2,
+                  3,
+                  3,
+                  4,
+                  2,
+                ],
+                "delimiters": Array [
+                  ".",
+                  ".",
+                  "/",
+                  "-",
+                ],
+              },
+              "maxLength": 18,
+              "name": "cnpj",
+              "required": true,
+              "type": "mask",
+              "validation": "cnpj",
+            },
+            Object {
+              "component": "input",
+              "id": "phoneEmergency",
+              "label": "phoneEmergency",
+              "maxLength": 30,
+              "name": "phoneEmergency",
+              "required": true,
+              "type": "text",
+            },
+            Object {
+              "component": "input",
+              "id": "phoneContact",
+              "label": "phoneContact",
+              "maxLength": 30,
+              "name": "phoneContact",
+              "required": true,
+              "type": "text",
+            },
+          ]
+        }
+        initialValues={
+          Object {
+            "__v": 0,
+            "_id": "5c52ebcd5fc7c9b1433ab704",
+            "appTheme": "#FFFFFF",
+            "businessName": "This is my test",
+            "cnpj": "12345678909876",
+            "image": undefined,
+            "phoneContact": "191234566",
+            "phoneEmergency": "1932465789",
+            "socialName": "Test",
+          }
+        }
+        onSubmit={[Function]}
+        rangeDates={Object {}}
+        suggestions={Array []}
+        type={null}
+      />
+      <UploadArea
+        addImage={[Function]}
+        image=""
+      />
+      <OnClickOutside(ColorPicker)
+        color="#FFFFFF"
+        colorList={
+          Array [
+            Object {
+              "primary": "#ed6ea0",
+              "primaryDark": "#ed6ea0",
+              "primaryLight": "#ec8c69",
+              "text": "#3d3e46",
+            },
+            Object {
+              "primary": "#B6CEE8",
+              "primaryDark": "#B6CEE8",
+              "primaryLight": "#F578DC",
+              "text": "#3d3e46",
+            },
+            Object {
+              "primary": "#B19FFF",
+              "primaryDark": "#5271C4",
+              "primaryLight": "#ECA1FE",
+              "text": "#3d3e46",
+            },
+            Object {
+              "primary": "#00dbde",
+              "primaryDark": "#00dbde",
+              "primaryLight": "#fc00ff",
+              "text": "#3d3e46",
+            },
+            Object {
+              "primary": "#48c6ef",
+              "primaryDark": "#48c6ef",
+              "primaryLight": "#6f86d6",
+              "text": "#3d3e46",
+            },
+            Object {
+              "primary": "#37ecba",
+              "primaryDark": "#37ecba",
+              "primaryLight": "#72afd3",
+              "text": "#3d3e46",
+            },
+            Object {
+              "primary": "#e0e0e0",
+              "primaryDark": "#e0e0e0",
+              "primaryLight": "#bcbcbc",
+              "text": "#3d3e46",
+            },
+            Object {
+              "primary": "#a8caba",
+              "primaryDark": "#a8caba",
+              "primaryLight": "#5d4157",
+              "text": "#3d3e46",
+            },
+            Object {
+              "primary": "#29323c",
+              "primaryDark": "#29323c",
+              "primaryLight": "#485563",
+              "text": "#3d3e46",
+            },
+          ]
+        }
+        eventTypes={
+          Array [
+            "mousedown",
+            "touchstart",
+          ]
+        }
+        excludeScrollbar={false}
+        outsideClickIgnoreClass="ignore-react-onclickoutside"
+        placeholder="Escolha um padrão de cores para seu aplicativo..."
+        preventDefault={false}
+        stopPropagation={false}
+        updateColor={[Function]}
+      />
+      <ForwardRef>
+        <Button
+          color="#8187e1"
+          disabled={false}
+          fill={false}
+          onClick={[Function]}
+          text="Salvar"
+        />
+      </ForwardRef>
+    </ForwardRef>
+  </Container>
+  <Summary />
+</App>
+`;

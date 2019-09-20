@@ -1,0 +1,14 @@
+.circleci
+.docz
+.idea
+.vscode
+/build
+/cmds
+/config
+/coverage
+/devops
+/node_modules
+/public
+/scripts
+/cypress
+/src/_assets/icons

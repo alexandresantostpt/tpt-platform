@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Cancel component Should rendering without crash 1`] = `
+<a
+  className="Cancel__StyledCancel-sc-1prgtit-0 WzuoR"
+  to="/teste"
+>
+  Cancelar
+</a>
+`;

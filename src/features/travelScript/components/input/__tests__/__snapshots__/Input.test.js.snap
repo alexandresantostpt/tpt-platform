@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Input component Should render with given props 1`] = `
+<input
+  className="Input__StyledInput-q7yyur-0 eIWCXX"
+  onChange={null}
+  placeholder="testPlaceholder"
+  type="text"
+  value="testValue"
+/>
+`;
+
+exports[`Tests for Input component Should render without crash 1`] = `
+<input
+  className="Input__StyledInput-q7yyur-0 eIWCXX"
+  onChange={null}
+  placeholder=""
+  type="text"
+  value=""
+/>
+`;

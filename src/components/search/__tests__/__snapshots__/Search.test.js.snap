@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Search component Should rendering without crash  1`] = `
+<div
+  className="Search__StyledSearch-sc-1rsqafp-0 iZTykq"
+>
+  <input
+    className="Search__StyledSearchInput-sc-1rsqafp-1 ddNcgu"
+    onChange={[Function]}
+    placeholder="Pesquise sua viagem"
+  />
+  <span
+    className="icon icon-search Icon__StyledIcon-crr1cg-0 gEYSDH"
+    disabled={false}
+    fontSize="0.9rem"
+    onClick={null}
+  />
+</div>
+`;

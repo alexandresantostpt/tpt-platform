@@ -1,0 +1,34 @@
+---
+menu: Table
+name: Table
+route: /table
+---
+import { Playground, PropsTable } from 'docz'
+
+import Table from './Table'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# Table
+
+<PropsTable of={ Table }/>
+
+## Basic Usage
+
+```
+<Table columns={ ARRAY_OF_COLUMNS_NAME } data={ ARRAY_OF_OBJECT }/>
+```
+
+<Playground>
+    <Table
+        columns={ [ 'status', 'clientName', 'destiny', 'date' ] }
+        data={
+            [
+                { clientName: 'Sra. Camila Santos', date: '20/04/2018', destiny: 'Itália, Florença', status: 'Em viagem' },
+                { clientName: 'Sra. Camila Santos', date: '20/04/2018', destiny: 'Itália, Florença', status: 'Em viagem' },
+                { clientName: 'Sra. Camila Santos', date: '20/04/2018', destiny: 'Itália, Florença', status: 'Em viagem' }
+            ]
+        }
+    />
+</Playground>

@@ -1,0 +1,35 @@
+---
+menu: Dropdown
+name: DropdownLabel
+route: /dropdown/label
+---
+import { Playground, PropsTable } from 'docz'
+
+import DropdownLabel from './DropdownLabel'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# DropdownLabel
+<PropsTable of={ DropdownLabel }/>
+
+## Basic usage
+
+```
+<DropdownLabel>johnny.silva@teresaperez.com.br</DropdownLabel>
+```
+
+<Playground>
+    <DropdownLabel>johnny.silva@teresaperez.com.br</DropdownLabel>
+</Playground>
+
+### Bigger
+Show item with a bigger font-size and font-weight
+
+```
+<DropdownLabel bigger>Johnny Silva</DropdownLabel>
+```
+
+<Playground>
+    <DropdownLabel dark>Johnny Silva</DropdownLabel>
+</Playground>

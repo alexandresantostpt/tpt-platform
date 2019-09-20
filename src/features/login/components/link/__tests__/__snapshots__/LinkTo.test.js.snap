@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for LinkTo component Should rendering without crash 1`] = `
+<a
+  className="LinkTo__StyledLink-sc-1u70co-0 khxOGt"
+  to="/"
+>
+  123
+</a>
+`;

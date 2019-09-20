@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Actions component Should render without crash 1`] = `
+<td
+  className="Actions__Menu-sc-1648r7d-0 hUQRsx"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    className="icon icon-menu Icon__StyledIcon-crr1cg-0 dqcjNO"
+    disabled={false}
+    fontSize="1.5rem"
+    onClick={null}
+  />
+</td>
+`;

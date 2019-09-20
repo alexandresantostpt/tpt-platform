@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Button component Should rendering without crash 1`] = `
+<button
+  className="Button__StyledButton-sc-1fc3klx-0 bEGBgE"
+  disabled={false}
+  fill={false}
+>
+  Test
+</button>
+`;

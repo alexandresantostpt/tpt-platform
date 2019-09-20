@@ -1,0 +1,3 @@
+const mocks = {}
+
+export { mocks }

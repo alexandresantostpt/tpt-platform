@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Page component Should rendering without crash 1`] = `
+<main
+  className="Page__StyledPage-sc-9alblw-0 eBjaLI"
+>
+  <h1>
+    Must be show!
+  </h1>
+</main>
+`;

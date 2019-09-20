@@ -1,0 +1,627 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for CruiseForm component Should render withou crash 1`] = `
+Array [
+  <div
+    className="WrapperPadding-ovjbyx-0 lcnoja"
+  >
+    <div
+      className="Panel__StyledPanel-sc-1qzkpb6-0 cGUlCn"
+    >
+      <span
+        className="Panel__StyledIcon-sc-1qzkpb6-2 iavvSk"
+      >
+        <span
+          className="icon icon-ship Icon__StyledIcon-crr1cg-0 dfhcZR"
+          disabled={false}
+          fontSize="3rem"
+          onClick={null}
+        />
+      </span>
+      <div
+        className="UploadButton__StyledContainer-sc-1p8zoc-0 fpZFIG"
+      >
+        <label
+          className="UploadButton__StyledUploadButton-sc-1p8zoc-3 ivhrYW"
+          htmlFor="inputFile"
+        >
+          +
+        </label>
+        <input
+          accept="image/png, image/jpeg"
+          className="UploadButton__InputFile-sc-1p8zoc-4 eLaooA"
+          id="inputFile"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+    </div>
+    <ul
+      className="PanelActions__StyledActions-sc-8xk8c8-0 lllkGw"
+    />
+  </div>,
+  <form
+    className="FormBuilder__StyledForm-c1htou-0 PZxQa"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form__container"
+    >
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Nome do cruzeiro
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.name"
+          disabled={false}
+          id="cruiseName"
+          maxLength={120}
+          name="library.name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Nome do navio
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-shipName"
+          disabled={false}
+          id="shipName"
+          maxLength={120}
+          name="shipName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="Princess Consuela"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Telefone de contato
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.phoneNumber"
+          disabled={false}
+          id="phoneNumber"
+          maxLength={30}
+          name="library.phoneNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Site
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.site"
+          disabled={false}
+          id="site"
+          maxLength={255}
+          name="library.site"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Tipo de cabine
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-cabinType"
+          disabled={false}
+          id="cabinType"
+          maxLength={30}
+          name="cabinType"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="Test"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Categoria
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-category"
+          disabled={false}
+          id="category"
+          maxLength={30}
+          name="category"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value="Test"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Número da cabine
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-cabinNumber"
+          disabled={false}
+          id="cabinNumber"
+          maxLength={255}
+          name="cabinNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value={123145}
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Código da reserva
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-reserveNumber"
+          disabled={false}
+          id="reserveNumber"
+          maxLength={15}
+          name="reserveNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value={123456}
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Porto de embarque
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-boarding.point"
+          disabled={false}
+          id="boardingPoint"
+          maxLength={255}
+          name="boarding.point"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="Test"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Data de embarque
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormDate__StyledFormDate-sc-1cgz0rk-0 ebKpCI"
+        >
+          <div
+            className="SingleDatePicker SingleDatePicker_1"
+          >
+            <div>
+              <div
+                className="SingleDatePickerInput SingleDatePickerInput_1"
+              >
+                <div
+                  className="DateInput DateInput_1"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-"
+                    aria-label="Selecione uma data..."
+                    autoComplete="off"
+                    className="DateInput_input DateInput_input_1 DateInput_input__readOnly DateInput_input__readOnly_2"
+                    disabled={false}
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="Selecione uma data..."
+                    readOnly={true}
+                    required={false}
+                    type="text"
+                    value="12 Mar 2019"
+                  />
+                  <p
+                    className="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                    id="DateInput__screen-reader-message-"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                </div>
+                <button
+                  className="SingleDatePickerInput_calendarIcon SingleDatePickerInput_calendarIcon_1"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon icon-calendar Icon__StyledIcon-crr1cg-0 cmjVJQ"
+                    disabled={false}
+                    fontSize="1.75rem"
+                    onClick={null}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Hora de embarque
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value="20:00"
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Porto de desembarque
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-landing.point"
+          disabled={false}
+          id="landingPoint"
+          maxLength={255}
+          name="landing.point"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="Test"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Data de desembarque
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormDate__StyledFormDate-sc-1cgz0rk-0 ebKpCI"
+        >
+          <div
+            className="SingleDatePicker SingleDatePicker_1"
+          >
+            <div>
+              <div
+                className="SingleDatePickerInput SingleDatePickerInput_1"
+              >
+                <div
+                  className="DateInput DateInput_1"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-"
+                    aria-label="Selecione uma data..."
+                    autoComplete="off"
+                    className="DateInput_input DateInput_input_1 DateInput_input__readOnly DateInput_input__readOnly_2"
+                    disabled={false}
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="Selecione uma data..."
+                    readOnly={true}
+                    required={false}
+                    type="text"
+                    value="12 Mar 2019"
+                  />
+                  <p
+                    className="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                    id="DateInput__screen-reader-message-"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                </div>
+                <button
+                  className="SingleDatePickerInput_calendarIcon SingleDatePickerInput_calendarIcon_1"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon icon-calendar Icon__StyledIcon-crr1cg-0 cmjVJQ"
+                    disabled={false}
+                    fontSize="1.75rem"
+                    onClick={null}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Hora de desembarque
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value="20:00"
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Passageiros
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Observações
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-observation"
+          disabled={false}
+          id="observation"
+          maxLength={255}
+          name="observation"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value="Observation"
+        />
+      </div>
+    </div>
+  </form>,
+  <div
+    className="FormButtonContainer-sc-1cqqivn-0 ADyLt"
+  >
+    <button
+      className="Button__StyledButton-sc-1fc3klx-0 bEGBgE"
+      disabled={false}
+      fill={false}
+      onClick={[Function]}
+    >
+      Salvar serviço
+    </button>
+    <a
+      className="Cancel__StyledCancel-sc-1prgtit-0 WzuoR"
+      to="/travel/5c52ebcd5fc7c949223ab705/script"
+    >
+      Cancelar
+    </a>
+  </div>,
+]
+`;

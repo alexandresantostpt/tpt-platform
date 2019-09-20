@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Avatar component Should render with given name 1`] = `
+Array [
+  <div
+    className="DefaultAvatar__AvatarContainer-sc-1lk30og-0 dWocpW"
+    data-tip="Harry Potter"
+    onClick={null}
+    size={2.3125}
+  >
+    HP
+  </div>,
+  <div
+    className="__react_component_tooltip place-top type-dark "
+    data-id="tooltip"
+  />,
+]
+`;
+
+exports[`Tests for Avatar component Should render with given size 1`] = `
+Array [
+  <div
+    className="DefaultAvatar__AvatarContainer-sc-1lk30og-0 iFCCbd"
+    data-tip="A"
+    onClick={null}
+    size={20}
+  >
+    A
+  </div>,
+  <div
+    className="__react_component_tooltip place-top type-dark "
+    data-id="tooltip"
+  />,
+]
+`;
+
+exports[`Tests for Avatar component Should render without crash 1`] = `
+Array [
+  <div
+    className="DefaultAvatar__AvatarContainer-sc-1lk30og-0 dWocpW"
+    data-tip="A"
+    onClick={null}
+    size={2.3125}
+  >
+    A
+  </div>,
+  <div
+    className="__react_component_tooltip place-top type-dark "
+    data-id="tooltip"
+  />,
+]
+`;

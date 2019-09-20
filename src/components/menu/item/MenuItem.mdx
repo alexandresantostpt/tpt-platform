@@ -1,0 +1,25 @@
+---
+menu: Menu
+name: MenuItem
+route: /menu/item
+---
+import { Playground, PropsTable } from 'docz'
+
+import MenuItem from './MenuItem'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# MenuItem
+
+<PropsTable of={ MenuItem }/>
+
+## Basic usage
+
+```
+<MenuItem icon="ICONE_NAME" label="ITEM_NAME" path="NAVIGATE_TO"/>
+```
+
+<Playground>
+    <MenuItem icon="icon-plane" label="travels" path="/"/>
+</Playground>

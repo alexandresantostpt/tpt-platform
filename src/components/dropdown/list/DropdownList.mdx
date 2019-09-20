@@ -1,0 +1,53 @@
+---
+menu: Dropdown
+name: DropdownList
+route: /dropdown/list
+---
+import { Playground, PropsTable } from 'docz'
+
+import { i18n } from '@i18n'
+
+import DropdownList from './DropdownList'
+import DropdownItem from '../item/DropdownItem'
+import DropdownLabel from '../label/DropdownLabel'
+import DropdownTitle from '../title/DropdownTitle'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# DropdownList
+<PropsTable of={ DropdownList }/>
+
+## Basic usage
+
+```
+<DropdownList expanded={ BOOLEAN_VALUE }>
+    <DropdownItem>
+        <DropdownTitle>{ i18n.t('titles.myProfile') }</DropdownTitle>
+    </DropdownItem>
+    <DropdownItem bigger>
+        <DropdownLabel dark>Johnny Silva</DropdownLabel>
+        <DropdownLabel>johnny.silva@teresaperez.com.br</DropdownLabel>
+    </DropdownItem>
+    <DropdownItem bigger>
+        <DropdownLabel dark>{ i18n.t('labels.activitiesRegistry') }</DropdownLabel>
+        <DropdownLabel>Atualizado às 8:45</DropdownLabel>
+    </DropdownItem>
+</DropdownList>
+```
+
+<Playground>
+    <DropdownList expanded={ true }>
+        <DropdownItem>
+            <DropdownTitle>{ i18n.t('titles.myProfile') }</DropdownTitle>
+        </DropdownItem>
+        <DropdownItem bigger>
+            <DropdownLabel dark>Johnny Silva</DropdownLabel>
+            <DropdownLabel>johnny.silva@teresaperez.com.br</DropdownLabel>
+        </DropdownItem>
+        <DropdownItem bigger>
+            <DropdownLabel dark>{ i18n.t('labels.activitiesRegistry') }</DropdownLabel>
+            <DropdownLabel>Atualizado às 8:45</DropdownLabel>
+        </DropdownItem>
+    </DropdownList>
+</Playground>

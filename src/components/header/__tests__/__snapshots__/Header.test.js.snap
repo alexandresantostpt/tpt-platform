@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Header component Should rendering without crash  1`] = `
+<header
+  className="Header__StyledHeader-od5ehu-0 hIVEkQ"
+>
+  <span
+    className="Brand__StyledBrand-sc-19fy8m0-0 jmSzTQ"
+  />
+  <nav
+    className="Menu__StyledMenu-w0f985-0 kGkgdR"
+  >
+    <ul
+      className="MenuList__StyledMenuList-sc-1bxu43p-0 ixFBrS"
+    >
+      <li
+        className="MenuItem__StyledMenuItem-zqooc6-0 iARPpZ"
+      >
+        <span
+          className="icon icon-plane Icon__StyledIcon-crr1cg-0 eUaEJk"
+          disabled={false}
+          fontSize="2.5rem"
+          onClick={null}
+        />
+        <a
+          className="MenuLink__StyledMenuLink-sc-14ijefa-0 fFEQpa"
+          to="/"
+        >
+          Viagens
+        </a>
+      </li>
+      <li
+        className="MenuItem__StyledMenuItem-zqooc6-0 iARPpZ"
+      >
+        <span
+          className="icon icon-clients Icon__StyledIcon-crr1cg-0 dGOERJ"
+          disabled={false}
+          fontSize="2rem"
+          onClick={null}
+        />
+        <a
+          className="MenuLink__StyledMenuLink-sc-14ijefa-0 fFEQpa"
+          to="/client"
+        >
+          Clientes
+        </a>
+      </li>
+      <li
+        className="MenuItem__StyledMenuItem-zqooc6-0 iARPpZ"
+      >
+        <span
+          className="icon icon-bookmark Icon__StyledIcon-crr1cg-0 iGtZzu"
+          disabled={false}
+          fontSize="2.3rem"
+          onClick={null}
+        />
+        <a
+          className="MenuLink__StyledMenuLink-sc-14ijefa-0 fFEQpa"
+          to="/library"
+        >
+          Biblioteca
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="Header__StyledOptions-od5ehu-1 hmosuQ"
+  >
+    <div
+      className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <img
+        alt="Johnny Silva"
+        className="DropdownPicture__StyledDropdownPicture-ylb9qy-0 iHpJFt"
+        src="https://api.adorable.io/avatars/100/tpt-platform"
+      />
+      <ul
+        className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+      >
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+          onClick={null}
+        >
+          <span
+            className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+          >
+            Meu perfil
+          </span>
+        </li>
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+          onClick={null}
+        >
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+          >
+            
+          </span>
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+          >
+            
+          </span>
+        </li>
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+          onClick={null}
+        >
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+          >
+            Registro de atividades
+          </span>
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+          >
+            Atualizado às 8:45
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <span
+        className="icon icon-notification Icon__StyledIcon-crr1cg-0 cmjVJQ"
+        disabled={false}
+        fontSize="1.75rem"
+        onClick={null}
+      />
+      <ul
+        className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+      >
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+          onClick={null}
+        >
+          <span
+            className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+          >
+            Notificações
+          </span>
+        </li>
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+          onClick={null}
+        >
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+          >
+            Alteração serviço
+          </span>
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+          >
+            Há 2 minutos
+          </span>
+        </li>
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+          onClick={null}
+        >
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+          >
+            Lembrete: Preencher informações
+          </span>
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 gxUkFn"
+          >
+            Ontem às 15:30
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="Dropdown__StyledDropdown-sc-14kwj8x-0 iZGQRX"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <span
+        className="icon icon-config Icon__StyledIcon-crr1cg-0 cmjVJQ"
+        disabled={false}
+        fontSize="1.75rem"
+        onClick={null}
+      />
+      <ul
+        className="DropdownList__StyledDropdownList-vjd4uo-0 iDpmEs"
+      >
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 jhIdjc"
+          onClick={null}
+        >
+          <span
+            className="DropdownTitle__StyledDropdownTitle-y9o5oh-0 hFdNKe"
+          >
+            Configurações
+          </span>
+        </li>
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 kBLyiT"
+          onClick={[Function]}
+        >
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+          >
+            Alterar senha
+          </span>
+        </li>
+        <li
+          className="DropdownItem__StyledDropdownItem-sc-102yxuy-0 hOZFkb"
+          onClick={[Function]}
+        >
+          <span
+            className="DropdownLabel__StyledDropdownLabel-scn6ga-0 fJmcGN"
+          >
+            Sair
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+`;

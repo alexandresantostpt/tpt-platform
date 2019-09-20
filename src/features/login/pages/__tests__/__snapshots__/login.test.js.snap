@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Login component Should render withou crash 1`] = `
+<main
+  className="Page__StyledPage-sc-9alblw-0 eBjaLI"
+>
+  <div
+    className="Background__StyledBg-sc-904t04-0 bTqgFQ"
+  />
+  <div
+    className="Box__StyledBox-v5mj6b-0 llPnpv"
+  >
+    <div
+      className="Text__StyledText-fa81pq-0 bIShHK"
+    >
+      <div>
+        Bem-vindo!
+      </div>
+      <div>
+        Faça login para continuar
+      </div>
+    </div>
+    <form
+      className="Form__StyledForm-sc-2b0hvf-0 hgpEDk"
+      onSubmit={[Function]}
+    >
+      <div
+        className="ErrorMessage__StyledDiv-maht7p-0 faewLc"
+      >
+        
+      </div>
+      <div
+        className="Input__StyledBox-sc-4bhgmp-0 gcStMN"
+      >
+        <input
+          className="Input__StyledInput-sc-4bhgmp-3 hoXjZP"
+          id="login"
+          onChange={[Function]}
+          required={true}
+          type="text"
+        />
+        <label
+          className="Input__StyledLabel-sc-4bhgmp-2 lcosGj"
+          htmlFor="login"
+        >
+           
+          Login
+           
+        </label>
+      </div>
+      <div
+        className="Input__StyledBox-sc-4bhgmp-0 gcStMN"
+      >
+        <input
+          className="Input__StyledInput-sc-4bhgmp-3 kyZuuN"
+          id="password"
+          onChange={[Function]}
+          required={true}
+          type="password"
+        />
+        <label
+          className="Input__StyledLabel-sc-4bhgmp-2 lcosGj"
+          htmlFor="password"
+        >
+           
+          Senha
+           
+        </label>
+        <button
+          className="Input__StyledButton-sc-4bhgmp-1 jreoz"
+          onClick={[Function]}
+          type="button"
+        >
+          mostrar
+        </button>
+      </div>
+      <button
+        className="Button__StyledButton-sc-6tss9n-0 dHMzfC"
+        disabled={false}
+        type="submit"
+      >
+        Entrar
+      </button>
+      <a
+        className="LinkTo__StyledLink-sc-1u70co-0 khxOGt"
+        to="/forgotPassword"
+      >
+        Esqueceu a senha?
+      </a>
+    </form>
+  </div>
+</main>
+`;

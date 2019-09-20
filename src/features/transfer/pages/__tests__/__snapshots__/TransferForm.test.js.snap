@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for TransferForm component Should render without crash 1`] = `
+Array [
+  <div
+    className="WrapperPadding-ovjbyx-0 lcnoja"
+  >
+    <div
+      className="Panel__StyledPanel-sc-1qzkpb6-0 cGUlCn"
+    >
+      <span
+        className="Panel__StyledIcon-sc-1qzkpb6-2 iavvSk"
+      >
+        <span
+          className="icon icon-transport Icon__StyledIcon-crr1cg-0 dfhcZR"
+          disabled={false}
+          fontSize="3rem"
+          onClick={null}
+        />
+      </span>
+      <div
+        className="UploadButton__StyledContainer-sc-1p8zoc-0 fpZFIG"
+      >
+        <label
+          className="UploadButton__StyledUploadButton-sc-1p8zoc-3 ivhrYW"
+          htmlFor="inputFile"
+        >
+          +
+        </label>
+        <input
+          accept="image/png, image/jpeg"
+          className="UploadButton__InputFile-sc-1p8zoc-4 eLaooA"
+          id="inputFile"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+    </div>
+    <ul
+      className="PanelActions__StyledActions-sc-8xk8c8-0 lllkGw"
+    />
+  </div>,
+  <form
+    className="FormBuilder__StyledForm-c1htou-0 PZxQa"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form__container"
+    >
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Nome da transfer
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.name"
+          disabled={false}
+          id="name"
+          maxLength={120}
+          name="library.name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Operador local
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-localOperator"
+          disabled={false}
+          id="localOperator"
+          maxLength={120}
+          name="localOperator"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Data do transfer
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormDate__StyledFormDate-sc-1cgz0rk-0 ebKpCI"
+        >
+          <div
+            className="SingleDatePicker SingleDatePicker_1"
+          >
+            <div>
+              <div
+                className="SingleDatePickerInput SingleDatePickerInput_1"
+              >
+                <div
+                  className="DateInput DateInput_1"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-"
+                    aria-label="Selecione uma data..."
+                    autoComplete="off"
+                    className="DateInput_input DateInput_input_1 DateInput_input__readOnly DateInput_input__readOnly_2"
+                    disabled={false}
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="Selecione uma data..."
+                    readOnly={true}
+                    required={false}
+                    type="text"
+                    value="07 Mar 2019"
+                  />
+                  <p
+                    className="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                    id="DateInput__screen-reader-message-"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                </div>
+                <button
+                  className="SingleDatePickerInput_calendarIcon SingleDatePickerInput_calendarIcon_1"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon icon-calendar Icon__StyledIcon-crr1cg-0 cmjVJQ"
+                    disabled={false}
+                    fontSize="1.75rem"
+                    onClick={null}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Horário do transfer
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value="17:00"
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Previsão de chegada
+          
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Ponto de encontro
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-meetPoint"
+          disabled={false}
+          id="meetPoint"
+          maxLength={255}
+          name="meetPoint"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Modelo do carro
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-car.model"
+          disabled={false}
+          id="model"
+          maxLength={60}
+          name="car.model"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Placa do carro
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-car.board"
+          disabled={false}
+          id="board"
+          maxLength={15}
+          name="car.board"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          type="text"
+          value="teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Nome do motorista
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-driver.name"
+          disabled={false}
+          id="driverName"
+          maxLength={120}
+          name="driver.name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Telefone de contato do motorista
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-driver.phone"
+          disabled={false}
+          id="driverTelephone"
+          maxLength={30}
+          name="driver.phone"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Como identificar o motorista
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-driver.howIdentify"
+          disabled={false}
+          id="howIdentifyDriver"
+          maxLength={120}
+          name="driver.howIdentify"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Tipo de transfer
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.transferType-Privado"
+            name="library.transferType-Privado"
+            onChange={[Function]}
+            type="radio"
+            value="Privado"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Privado
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.transferType-Regular"
+            name="library.transferType-Regular"
+            onChange={[Function]}
+            type="radio"
+            value="Regular"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Regular
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Guia ou motorista
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={true}
+            disabled={false}
+            id="guideOrDriver-Guia"
+            name="guideOrDriver-Guia"
+            onChange={[Function]}
+            type="radio"
+            value="Guia"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Guia
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="guideOrDriver-Motorista"
+            name="guideOrDriver-Motorista"
+            onChange={[Function]}
+            type="radio"
+            value="Motorista"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Motorista
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Tipo de assistência
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.assistance-Não tem"
+            name="library.assistance-Não tem"
+            onChange={[Function]}
+            type="radio"
+            value="Não tem"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Não tem
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.assistance-Personalizada"
+            name="library.assistance-Personalizada"
+            onChange={[Function]}
+            type="radio"
+            value="Personalizada"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Personalizada
+          </span>
+        </div>
+        <div
+          className="FormRadio__StyledOption-xdzjtw-1 dZGJdF"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            id="library.assistance-Recepção"
+            name="library.assistance-Recepção"
+            onChange={[Function]}
+            type="radio"
+            value="Recepção"
+          />
+          <span
+            className="FormRadio__StyledLabel-xdzjtw-0 cnAFWF"
+          >
+            Recepção
+          </span>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Passageiro
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Limite de bagagem
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-library.luggageLimite"
+          disabled={false}
+          id="luggageLimite"
+          maxLength={3}
+          name="library.luggageLimite"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="number"
+          value=""
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Observações
+          
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-observation"
+          disabled={false}
+          id="observation"
+          maxLength={255}
+          name="observation"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </form>,
+  <div
+    className="FormButtonContainer-sc-1cqqivn-0 ADyLt"
+  >
+    <button
+      className="Button__StyledButton-sc-1fc3klx-0 bEGBgE"
+      disabled={false}
+      fill={false}
+      onClick={[Function]}
+    >
+      Salvar serviço
+    </button>
+    <a
+      className="Cancel__StyledCancel-sc-1prgtit-0 WzuoR"
+      to="/travel/5c52ebcd5fc7c949223ab705/script"
+    >
+      Cancelar
+    </a>
+  </div>,
+]
+`;

@@ -1,0 +1,25 @@
+---
+menu: Menu
+name: MenuLink
+route: /menu/link
+---
+import { Playground, PropsTable } from 'docz'
+
+import MenuLink from './MenuLink'
+
+import '@cfg/scripts'
+import '@cfg/style'
+
+# MenuLink
+
+<PropsTable of={ MenuLink }/>
+
+## Basic usage
+
+```
+<MenuLink path="ROUTE_TO_NAVIGATE">My link name</MenuLink>
+```
+
+<Playground>
+    <MenuLink path="/">Meu link</MenuLink>
+</Playground>

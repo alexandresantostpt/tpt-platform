@@ -1,0 +1,890 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Travel component Should render withou crash 1`] = `
+Array [
+  <div
+    className="Panel__StyledPanel-sc-1qzkpb6-0 cGUlCn"
+  >
+    <span
+      className="Panel__StyledIcon-sc-1qzkpb6-2 iavvSk"
+    >
+      <span
+        className="icon icon-plane-alt Icon__StyledIcon-crr1cg-0 dfhcZR"
+        disabled={false}
+        fontSize="3rem"
+        onClick={null}
+      />
+    </span>
+    <div
+      className="UploadButton__StyledContainer-sc-1p8zoc-0 fpZFIG"
+    >
+      <label
+        className="UploadButton__StyledUploadButton-sc-1p8zoc-3 ivhrYW"
+        htmlFor="inputFile"
+      >
+        +
+      </label>
+      <input
+        accept="image/png, image/jpeg"
+        className="UploadButton__InputFile-sc-1p8zoc-4 eLaooA"
+        id="inputFile"
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+  </div>,
+  <ul
+    className="Tabs__StyledTabs-sc-17hg029-0 fiSwC"
+  >
+    <li
+      className="Tab__StyledTab-sc-1hgxzl3-0 cykjJO"
+      onClick={null}
+    >
+      <span
+        className="TabTitle__StyledTabTitle-sc-1ywdo8e-0 dKrIjz"
+        onClick={[Function]}
+      >
+        Trecho  1
+      </span>
+      <span
+        className="icon icon-times Icon__StyledIcon-crr1cg-0 dqcjNO"
+        disabled={false}
+        fontSize="1.5rem"
+        onClick={[Function]}
+      />
+    </li>
+    <li
+      className="Tab__StyledTab-sc-1hgxzl3-0 feGFRG"
+      onClick={[Function]}
+    >
+      <span
+        className="TabTitle__StyledTabTitle-sc-1ywdo8e-0 dKrIjz"
+        onClick={null}
+      >
+        Adicionar trecho
+      </span>
+    </li>
+  </ul>,
+  <form
+    className="FormBuilder__StyledForm-c1htou-0 PZxQa"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form__container"
+    >
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Nome da companhia
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-journeys[0].companyName"
+          disabled={false}
+          id="journeys[0].companyName"
+          maxLength={120}
+          name="journeys[0].companyName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="Companhia de testes"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Número do voo
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <textarea
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormTextArea__StyledFormText-sc-9g3u2c-0 hmDUjT"
+          data-cy="input-journeys[0].flightNumber"
+          disabled={false}
+          id="journeys[0].flightNumber"
+          isInvalid={false}
+          min={0}
+          name="journeys[0].flightNumber"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="JJ
+Número do voo"
+          readOnly={false}
+          required={true}
+          type="text"
+          value="123"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Cidade de saída
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormCity__StyledAutosuggest-sc-4vmpmt-0 kHEvhJ"
+        >
+          <div
+            aria-expanded={false}
+            aria-haspopup="listbox"
+            aria-owns="react-autowhatever-1"
+            className="react-autosuggest__container"
+            role="combobox"
+          >
+            <input
+              aria-activedescendant={null}
+              aria-autocomplete="list"
+              aria-controls="react-autowhatever-1"
+              autoComplete="off"
+              className="react-autosuggest__input"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+            <div
+              className="react-autosuggest__suggestions-container"
+              id="react-autowhatever-1"
+              role="listbox"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Aeroporto de saída
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-journeys[0].airportExit"
+          disabled={false}
+          id="journeys[0].airportExit"
+          maxLength={60}
+          name="journeys[0].airportExit"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Data de saída
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormDate__StyledFormDate-sc-1cgz0rk-0 ebKpCI"
+        >
+          <div
+            className="SingleDatePicker SingleDatePicker_1"
+          >
+            <div>
+              <div
+                className="SingleDatePickerInput SingleDatePickerInput_1"
+              >
+                <div
+                  className="DateInput DateInput_1"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-"
+                    aria-label="Selecione uma data..."
+                    autoComplete="off"
+                    className="DateInput_input DateInput_input_1 DateInput_input__readOnly DateInput_input__readOnly_2"
+                    disabled={false}
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="Selecione uma data..."
+                    readOnly={true}
+                    required={false}
+                    type="text"
+                    value="27 Mar 2019"
+                  />
+                  <p
+                    className="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                    id="DateInput__screen-reader-message-"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                </div>
+                <button
+                  className="SingleDatePickerInput_calendarIcon SingleDatePickerInput_calendarIcon_1"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon icon-calendar Icon__StyledIcon-crr1cg-0 cmjVJQ"
+                    disabled={false}
+                    fontSize="1.75rem"
+                    onClick={null}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Horário de saída
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value="16:00"
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Cidade de destino
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormCity__StyledAutosuggest-sc-4vmpmt-0 kHEvhJ"
+        >
+          <div
+            aria-expanded={false}
+            aria-haspopup="listbox"
+            aria-owns="react-autowhatever-1"
+            className="react-autosuggest__container"
+            role="combobox"
+          >
+            <input
+              aria-activedescendant={null}
+              aria-autocomplete="list"
+              aria-controls="react-autowhatever-1"
+              autoComplete="off"
+              className="react-autosuggest__input"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+            <div
+              className="react-autosuggest__suggestions-container"
+              id="react-autowhatever-1"
+              role="listbox"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Aeroporto de destino
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <input
+          className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+          data-cy="input-journeys[0].airportDestiny"
+          disabled={false}
+          id="journeys[0].airportDestiny"
+          maxLength={60}
+          name="journeys[0].airportDestiny"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder=""
+          readOnly={false}
+          required={true}
+          type="text"
+          value="teste"
+        />
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Data de chegada
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormDate__StyledFormDate-sc-1cgz0rk-0 ebKpCI"
+        >
+          <div
+            className="SingleDatePicker SingleDatePicker_1"
+          >
+            <div>
+              <div
+                className="SingleDatePickerInput SingleDatePickerInput_1"
+              >
+                <div
+                  className="DateInput DateInput_1"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-"
+                    aria-label="Selecione uma data..."
+                    autoComplete="off"
+                    className="DateInput_input DateInput_input_1 DateInput_input__readOnly DateInput_input__readOnly_2"
+                    disabled={false}
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder="Selecione uma data..."
+                    readOnly={true}
+                    required={false}
+                    type="text"
+                    value=""
+                  />
+                  <p
+                    className="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                    id="DateInput__screen-reader-message-"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                </div>
+                <button
+                  className="SingleDatePickerInput_calendarIcon SingleDatePickerInput_calendarIcon_1"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="icon icon-calendar Icon__StyledIcon-crr1cg-0 cmjVJQ"
+                    disabled={false}
+                    fontSize="1.75rem"
+                    onClick={null}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 vziFA"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Horário de chegada
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormTime__StyledFormTime-sc-1ka3ing-1 bdjJPj"
+        >
+          <input
+            className="FormTime__StyledDatePicker-sc-1ka3ing-0 hCpkqS"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Object {
+                "blocks": Array [
+                  2,
+                  2,
+                ],
+                "delimiters": Array [
+                  ":",
+                ],
+              }
+            }
+            placeholderText="Selecione um horário..."
+            value="18:30"
+          />
+        </div>
+      </div>
+      <div
+        className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+      >
+        <label
+          className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+        >
+          Passageiro
+          
+          <span
+            className="FormRequired__StyledFormRequired-svb7d8-0 jawWZC"
+          >
+             *
+          </span>
+        </label>
+        <div
+          className="FormClients__StyledOption-jb3pw2-1 gugIhy"
+        >
+          <input
+            checked={true}
+            disabled={false}
+            id="5c9a17959be6c0225700c5ed"
+            name="5c9a17959be6c0225700c5ed"
+            onChange={[Function]}
+            type="checkbox"
+            value="5c9a17959be6c0225700c5ed"
+          />
+          <span
+            className="FormClients__StyledLabel-jb3pw2-0 kKzFxc"
+          >
+            Viajante 1
+          </span>
+        </div>
+        <div
+          className="FormClients__StyledOption-jb3pw2-1 gugIhy"
+        >
+          <input
+            checked={true}
+            disabled={false}
+            id="5c9a24f29be6c0bd9f00c627"
+            name="5c9a24f29be6c0bd9f00c627"
+            onChange={[Function]}
+            type="checkbox"
+            value="5c9a24f29be6c0bd9f00c627"
+          />
+          <span
+            className="FormClients__StyledLabel-jb3pw2-0 kKzFxc"
+          >
+            Ceccon TEST2
+          </span>
+        </div>
+        <div
+          className="AerialClientForm__StyledAerialClientForm-sc-14liczv-0 dMvCuG"
+        >
+          <span>
+            <div
+              className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+            >
+              <label
+                className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+              >
+                Nome do passageiro
+                 1
+              </label>
+              <input
+                className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                data-cy="input-journeys[0].passengers[0].passengerName"
+                disabled={false}
+                id="journeys[0].passengers[0].passengerName"
+                maxLength={60}
+                name="journeys[0].passengers[0].passengerName"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder=""
+                readOnly={false}
+                required={false}
+                type="text"
+                value="Viajante 1"
+              />
+            </div>
+            <div
+              className="Collapse__StyledCollapseItem-sc-16jlua7-0 hveKjh"
+            >
+              <div
+                className="CollapseItems__StyledCollapseItems-tyowld-0 fnYIc"
+              >
+                <div
+                  className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+                >
+                  <label
+                    className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+                  >
+                    Assento
+                    
+                  </label>
+                  <input
+                    className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                    data-cy="input-journeys[0].passengers[0].seat"
+                    disabled={false}
+                    id="journeys[0].passengers[0].seat"
+                    maxLength={15}
+                    name="journeys[0].passengers[0].seat"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value="teste2"
+                  />
+                </div>
+                <div
+                  className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+                >
+                  <label
+                    className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+                  >
+                    Código da reserva
+                    
+                  </label>
+                  <input
+                    className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                    data-cy="input-journeys[0].passengers[0].reserveCode"
+                    disabled={false}
+                    id="journeys[0].passengers[0].reserveCode"
+                    maxLength={15}
+                    name="journeys[0].passengers[0].reserveCode"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value="12313"
+                  />
+                </div>
+                <div
+                  className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+                >
+                  <label
+                    className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+                  >
+                    E-ticket
+                    
+                  </label>
+                  <input
+                    className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                    data-cy="input-journeys[0].passengers[0].ticket"
+                    disabled={false}
+                    id="journeys[0].passengers[0].ticket"
+                    maxLength={255}
+                    min={0}
+                    name="journeys[0].passengers[0].ticket"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="number"
+                    value={12313}
+                  />
+                </div>
+                <div
+                  className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+                >
+                  <label
+                    className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+                  >
+                    Classe
+                    
+                  </label>
+                  <input
+                    className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                    data-cy="input-journeys[0].passengers[0].session"
+                    disabled={false}
+                    id="journeys[0].passengers[0].session"
+                    maxLength={15}
+                    name="journeys[0].passengers[0].session"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value="luxo"
+                  />
+                </div>
+              </div>
+              <span
+                className="icon icon-arrow-up Icon__StyledIcon-crr1cg-0 cMlgiC"
+                disabled={false}
+                fontSize="1.75rem"
+                onClick={[Function]}
+              />
+            </div>
+          </span>
+          <span>
+            <div
+              className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+            >
+              <label
+                className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+              >
+                Nome do passageiro
+                 2
+              </label>
+              <input
+                className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                data-cy="input-journeys[0].passengers[1].passengerName"
+                disabled={false}
+                id="journeys[0].passengers[1].passengerName"
+                maxLength={60}
+                name="journeys[0].passengers[1].passengerName"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder=""
+                readOnly={false}
+                required={false}
+                type="text"
+                value="Ceccon TEST2"
+              />
+            </div>
+            <div
+              className="Collapse__StyledCollapseItem-sc-16jlua7-0 hveKjh"
+            >
+              <div
+                className="CollapseItems__StyledCollapseItems-tyowld-0 fnYIc"
+              >
+                <div
+                  className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+                >
+                  <label
+                    className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+                  >
+                    Assento
+                    
+                  </label>
+                  <input
+                    className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                    data-cy="input-journeys[0].passengers[1].seat"
+                    disabled={false}
+                    id="journeys[0].passengers[1].seat"
+                    maxLength={15}
+                    name="journeys[0].passengers[1].seat"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value="Assento 22b"
+                  />
+                </div>
+                <div
+                  className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+                >
+                  <label
+                    className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+                  >
+                    Código da reserva
+                    
+                  </label>
+                  <input
+                    className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                    data-cy="input-journeys[0].passengers[1].reserveCode"
+                    disabled={false}
+                    id="journeys[0].passengers[1].reserveCode"
+                    maxLength={15}
+                    name="journeys[0].passengers[1].reserveCode"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value="t123s"
+                  />
+                </div>
+                <div
+                  className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+                >
+                  <label
+                    className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+                  >
+                    E-ticket
+                    
+                  </label>
+                  <input
+                    className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                    data-cy="input-journeys[0].passengers[1].ticket"
+                    disabled={false}
+                    id="journeys[0].passengers[1].ticket"
+                    maxLength={255}
+                    min={0}
+                    name="journeys[0].passengers[1].ticket"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="number"
+                    value={123123}
+                  />
+                </div>
+                <div
+                  className="FormGroup__StyledFormGroup-hydimu-0 isOWlT"
+                >
+                  <label
+                    className="FormLabel__StyledFormLabel-vu10xa-0 cVRKKv"
+                  >
+                    Classe
+                    
+                  </label>
+                  <input
+                    className="FormField__Field-sc-1at7ilr-0 ceLHeu FormInput__StyledFormInput-sc-77s1r2-0 XtSyS"
+                    data-cy="input-journeys[0].passengers[1].session"
+                    disabled={false}
+                    id="journeys[0].passengers[1].session"
+                    maxLength={15}
+                    name="journeys[0].passengers[1].session"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    placeholder=""
+                    readOnly={false}
+                    required={false}
+                    type="text"
+                    value="teste"
+                  />
+                </div>
+              </div>
+              <span
+                className="icon icon-arrow-up Icon__StyledIcon-crr1cg-0 cMlgiC"
+                disabled={false}
+                fontSize="1.75rem"
+                onClick={[Function]}
+              />
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </form>,
+  <div
+    className="FormButtonContainer-sc-1cqqivn-0 ADyLt"
+  >
+    <button
+      className="Button__StyledButton-sc-1fc3klx-0 bEGBgE"
+      disabled={false}
+      fill={false}
+      onClick={[Function]}
+    >
+      Salvar serviço
+    </button>
+    <a
+      className="Cancel__StyledCancel-sc-1prgtit-0 WzuoR"
+      to="/travel/5c52ebcd5fc7c949223ab705/script"
+    >
+      Cancelar
+    </a>
+  </div>,
+]
+`;
