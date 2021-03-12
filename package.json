@@ -75,7 +75,7 @@
         "react-bootstrap-timezone-picker": "^1.0.12",
         "react-datepicker": "^2.1.0",
         "react-dates": "^18.4.1",
-        "react-dev-utils": "^7.0.1",
+        "react-dev-utils": "^11.0.4",
         "react-device-detect": "^1.6.2",
         "react-dom": "^16.8.3",
         "react-final-form": "^4.0.2",
